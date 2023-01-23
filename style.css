@@ -19,3 +19,11 @@ body {
     margin-left:20px;
 }
 
+.continents-button-class {
+    background-color: #FF0000;
+    color: #FFFFFF;
+}
+
+.about-us-button-class{
+    background-color: #00FF00;
+}
