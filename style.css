@@ -25,5 +25,10 @@ body {
 }
 
 .about-us-button-class{
-    background-color: #00FF00;
+    background-color: rgba(0, 255, 0, .2);
+    color: #000000;
+}
+
+.navbar-class{
+    background-color: rgba(122, 198, 217, 1);
 }
