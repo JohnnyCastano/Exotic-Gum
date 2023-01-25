@@ -8,9 +8,8 @@ body {
 }
 
 .logonav {
-    width: 66px;
-    height: 66px;
-    background-origin: padding-box;
+    width: 100px;
+    height: 100px;
     border-radius: -6px;
 }
 
@@ -31,4 +30,11 @@ body {
 
 .navbar-class{
     background-color: rgba(122, 198, 217, 1);
+    background-color: transparent;
+}
+
+.ourmission img {
+    object-fit: contain;
+    width: min-content;
+    height: min-content;
 }
