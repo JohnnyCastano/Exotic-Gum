@@ -41,7 +41,13 @@ body {
 
 .navbar-class{
     background-color: rgba(122, 198, 217, 1);
-    background-color: transparent;
+ background-color: transparent;    
+}
+
+.navbar-btn-class{
+    background-color: rgba(122, 198, 217, .5);
+    font-weight: 450;
+    color: #000000;
 }
 
 .ourmission img {
@@ -73,12 +79,16 @@ body {
 
 .search {
     position: relative;
-    width: 60px;
+    width: 360px;
     height: 60px;
     background: #FFFFFF;
     border-radius: 60px;
     transition: 0.5s;
     box-shadow: 0 0 0 5px #2573ef;
+}
+
+.search.active {
+    width: 360px;
 }
 
 .search .icon {
@@ -114,3 +124,15 @@ body {
     background: #287dfc;
     transform: translate(6px, 6px) rotate(315deg);
 }
+
+.search .input {
+    position: relative;
+    width: 300px;
+    height: 60px;
+    left: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search .input

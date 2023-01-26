@@ -20,13 +20,21 @@
 <body>
   <div class="search">
     <div class="icon"></div>
-    <div class="input"></div>
+    <div class="input">
+      <input type="text" placeholder="Search" id="mysearch">
+    </div>
   </div>
 
 
 
 
-
+  <script>
+    const icon = document.querySelector('.icon');
+    const Search = document.querySelector('.search');
+    icon.onclick = function(){
+      Search.classList.toggle('active')
+    }
+  </script>
 
 
 
