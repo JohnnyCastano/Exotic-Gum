@@ -1,0 +1,154 @@
+body {  
+    background: rgb(12,124,90);
+    background: radial-gradient(circle, rgba(12,124,90,1) 51%, rgba(5,126,111,1) 90%);
+}
+
+
+  
+#homeimg {
+    display: flex;
+}
+
+/*Navbar css*/
+
+.logonav {
+    width: 100px;
+    height: 100px;
+    border-radius: -2px;
+}
+
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #399367 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: content-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  width: 120px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 15px;
+}
+
+.button-29:focus {
+  box-shadow: #277738 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #127130 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #288671 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+/*End of Navbar css*/
+
+/*Beginning of Card carousel*/
+
+.card-carousel {
+    align-items: center;
+    justify-items: center;
+}
+.carouselExampleControls{
+    padding:5%;
+}
+
+/*End of Card carousel*/
+
+.parallax {
+    background-image: url();
+  
+    min-height: 500px;
+ 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
+.b2t {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #FFF;
+    color: #178949;
+    font-size: 32px;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all .4s;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.b2t.active {
+    pointer-events: auto;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+.continents-button-class {
+    background-color: #FF0000;
+    color: #FFFFFF;
+}
+
+.about-us-button-class{
+    background-color: rgba(0, 255, 0, .2);
+    color: #000000;
+}
+
+.navbar-class{
+    background-color: rgba(122, 198, 217, 1);
+ background-color: transparent;    
+}
+
+.navbar-btn-class{
+    background-color: rgba(122, 198, 217, .5);
+    font-weight: 450;
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
