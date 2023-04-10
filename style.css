@@ -30,7 +30,7 @@ body {
   display: inline-flex;
   font-family: "JetBrains Mono",monospace;
   height: 48px;
-  width: 120px;
+  width: 140px;
   justify-content: center;
   line-height: 1;
   list-style: none;
@@ -71,11 +71,26 @@ body {
     align-items: center;
     justify-items: center;
 }
-.carouselExampleControls{
+.carouselExampleControls {
     padding:5%;
 }
 
 /*End of Card carousel*/
+
+
+/*Card carousel*/
+
+.card_names h1 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #3c4fe0;
+    background-color: rgb(9,121,55);
+    background-color: linear-gradient(90deg, rgba(9,121,55,1) 31%, rgba(0,255,96,1) 77%);
+}
+
+/*End of Card carousel*/
+
 
 .parallax {
     background-image: url();
