@@ -1,6 +1,6 @@
 body {  
-    background: rgb(12,124,90);
-    background: radial-gradient(circle, rgba(12,124,90,1) 51%, rgba(5,126,111,1) 90%);
+    background: rgb(122,198,217);
+    background: radial-gradient(circle, rgba(122,198,217,1) 0%, rgba(205,245,255,1) 100%);
 }
 
 
@@ -70,6 +70,7 @@ body {
 .card-carousel {
     align-items: center;
     justify-items: center;
+    background-color: #7AC6D9;
 }
 .carouselExampleControls {
     padding:5%;
@@ -89,7 +90,114 @@ body {
     background-color: linear-gradient(90deg, rgba(9,121,55,1) 31%, rgba(0,255,96,1) 77%);
 }
 
+.card-carousel {
+    background-color: linear-gradient(90deg, rgba(9,121,55,1) 31%, rgba(0,255,96,1) 77%);
+}
+
 /*End of Card carousel*/
+
+
+
+
+
+/*Waves before footer*/
+
+@import url(//fonts.googleapis.com/css?family=Lato:300:400);
+
+body {
+  margin:0;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight:300;
+  letter-spacing: 2px;
+  font-size:48px;
+}
+p {
+  font-family: 'Lato', sans-serif;
+  letter-spacing: 1px;
+  font-size:14px;
+  color: #333333;
+}
+
+
+
+
+
+
+.flex { /*Flexbox for containers*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.waves {
+  position:relative;
+  width: 100%;
+  height:15vh;
+  margin-bottom:-7px; /*Fix for safari gap*/
+  min-height:100px;
+  max-height:20px;
+}
+
+
+
+/* Animation */
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
+  0% {
+   transform: translate3d(-90px,0,0);
+  }
+  100% { 
+    transform: translate3d(85px,0,0);
+  }
+}
+/*Shrinking for mobile*/
+@media (max-width: 780px) {
+  .waves {
+    height: 20px;
+    min-height:40px;
+  }
+  .content {
+    height:30vh;
+  }
+  h1 {
+    font-size:24px;
+  }
+}
+
+/*End of Waves*/
+
+/*Beginning of footer*/
+
+.footer-section {
+    background-color: #7AC6D9;
+}
+
+/*End of footer*/
+
+
 
 
 .parallax {
@@ -159,9 +267,15 @@ body {
     color: #000000;
 }
 
+.inner-clr{
+    background-color: #33ABCA;
+    box-shadow: 3px 3px 0.125rem #08596D;
+}
 
-
-
+.mid-clr{
+    
+    box-shadow: 3px 3px 0.125rem #3A7A8A;
+}
 
 
 
