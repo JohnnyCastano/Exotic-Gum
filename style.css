@@ -269,12 +269,12 @@ p {
 
 .inner-clr{
     background-color: #33ABCA;
-    box-shadow: 3px 3px 0.125rem #08596D;
+    box-shadow: 3px 3px 5px #08596D;
 }
 
 .mid-clr{
     
-    box-shadow: 3px 3px 0.125rem #3A7A8A;
+    box-shadow: 5px 5px 5px #3A7A8A;
 }
 
 

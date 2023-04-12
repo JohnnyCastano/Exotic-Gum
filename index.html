@@ -1,3 +1,7 @@
+<?php
+  include_once 'includes/dbh.inc.php';
+?>
+
 <!doctype html>
 <html lang="en">
 
@@ -145,168 +149,95 @@
 
     <!--Beginning of carousel-->
 
-
-    <section class=" pt-2 px-3">
+    <section class=" pt-2 px-2">
       <div class="container-fluid">
         <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <div class="row">
-
-                <div>
-                  <div class="row card-names">
-                    <div class="col-sm-12 text-center">
-                      <h1>Highest Rated!</h1>
-                    </div>
-                  </div>
+              <div class="row card-names">
+                <div class="col-sm-12 text-center">
+                  <h1>Highest Rated!</h1>
                 </div>
               </div>
               <div class="row">
-                <div class="col-sm-4 px-2 py-2 mx-2">
-                  <div class="card card-carousel mid-clr">
-                    <div class="card-body">
-                      <p>
-                        <h5 class="card-title">
-                          Delivery
-                        </h5>
-                        <p class="card-text">
-                          Order from our online menu and have it delivered straight to your door!
+                <div class="card-group">
+                  <div class="col-sm-4 px-2 py-2">
+                    <div class="card card-carousel mid-clr">
+                      <div class="card-body">
+                        <p>
+                          <h5 class="card-title">
+                            Delivery
+                          </h5>
+                          <p class="card-text">
+                            Order from our online menu and have it delivered straight to your door!
+                          </p>
+                          <a href="Contact.html" class="btn inner-clr">
+                            Our Number
+                          </a>
+                          <br>
+                          <img class="card-img-top" src="./img/delivery.jpg" alt="Card image">
                         </p>
-                        <a href="Contact.html" class="btn inner-clr">
-                          Our Number
-                        </a>
-                        <br>
-                        <img class="card-img-top" src="./img/delivery.jpg" alt="Card image">
-                      </p>
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                <div class="col-sm-4 px-2 py-2">
-                  <div class="card card-carousel mid-clr">
-                    <div class="card-body">
-                      <p>
-                        <h5 class="card-title">
-                          Order Online
-                        </h5>
-                        <p class="card-text">
-                          Order Online from your home and pick up ready to go in our restaurant!
+                  <div class="col-sm-4 px-2 py-2">
+                    <div class="card card-carousel mid-clr">
+                      <div class="card-body">
+                        <p>
+                          <h5 class="card-title">
+                            Order Online
+                          </h5>
+                          <p class="card-text">
+                            Order Online from your home and pick up ready to go in our restaurant!
+                          </p>
+                          <a href="Order.html" class="btn inner-clr">
+                            Order Online
+                          </a>
+                          <br>
+                          <img class="card-img-top" src="./img/ordering.jpg" alt="Card image">
                         </p>
-                        <a href="Order.html" class="btn inner-clr">
-                          Order Online
-                        </a>
-                        <br>
-                        <img class="card-img-top" src="./img/ordering.jpg" alt="Card image">
-                      </p>
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                <div class="col-sm-4 px-2 py-2">
-                  <div class="card card-carousel mid-clr">
-                    <div class="card-body">
-                      <p>
-                        <h5 class="card-title">
-                          Dine-in
-                        </h5>
-                        <p class="card-text">
-                          Have a look at the wide variety of food in our menu before you dine in!
+                  <div class="col-sm-4 px-2 py-2">
+                    <div class="card card-carousel mid-clr">
+                      <div class="card-body">
+                        <p>
+                          <h5 class="card-title">
+                            Dine-in
+                          </h5>
+                          <p class="card-text">
+                            Have a look at the wide variety of food in our menu before you dine in!
+                          </p>
+                          <a href="Menu.html" class="btn inner-clr">
+                            Our Menu
+                          </a>
+                          <br>
+                          <img class="card-img-top" src="./img/sushi.jpg" alt="Card image">
                         </p>
-                        <a href="Menu.html" class="btn inner-clr">
-                          Our Menu
-                        </a>
-                        <br>
-                        <img class="card-img-top" src="./img/sushi.jpg" alt="Card image">
-                      </p>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="carousel-item active">
-              <div class="row">
-
-                <div>
-                  <div class="row card-names">
-                    <div class="col-sm-12 text-center">
-                      <h1>Highest Rated!</h1>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-sm-4 px-2 py-2">
-                  <div class="card card-carousel mid-clr">
-                    <div class="card-body">
-                      <p>
-                        <h5 class="card-title">
-                          Delivery
-                        </h5>
-                        <p class="card-text">
-                          Order from our online menu and have it delivered straight to your door!
-                        </p>
-                        <a href="Contact.html" class="btn inner-clr">
-                          Our Number
-                        </a>
-                        <br>
-                        <img class="card-img-top" src="./img/delivery.jpg" alt="Card image">
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-sm-4 px-2 py-2">
-                  <div class="card card-carousel mid-clr">
-                    <div class="card-body">
-                      <p>
-                        <h5 class="card-title">
-                          Order Online
-                        </h5>
-                        <p class="card-text">
-                          Order Online from your home and pick up ready to go in our restaurant!
-                        </p>
-                        <a href="Order.html" class="btn inner-clr">
-                          Order Online
-                        </a>
-                        <br>
-                        <img class="card-img-top" src="./img/ordering.jpg" alt="Card image">
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-sm-4 px-2 py-2">
-                  <div class="card card-carousel mid-clr">
-                    <div class="card-body">
-                      <p>
-                        <h5 class="card-title">
-                          Dine-in
-                        </h5>
-                        <p class="card-text">
-                          Have a look at the wide variety of food in our menu before you dine in!
-                        </p>
-                        <a href="Menu.html" class="btn inner-clr">
-                          Our Menu
-                        </a>
-                        <br>
-                        <img class="card-img-top" src="./img/sushi.jpg" alt="Card image">
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div> <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-              data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+            
           </div>
+          
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
+      </div>
     </section>
 
     <!--End of card carousel-->
@@ -315,13 +246,17 @@
 
 
 
+
+
+
+
+
+
+
+
     <!--Hey! This is the original version
 of Simple CSS Waves-->
-
     <div class="header">
-
-
-
       <!--Waves Container-->
       <div>
         <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -338,7 +273,6 @@ of Simple CSS Waves-->
         </svg>
       </div>
       <!--Waves end-->
-
     </div>
     <!--Header ends-->
 
@@ -387,7 +321,7 @@ of Simple CSS Waves-->
               The Sea
               38305
               <br>
-              (731) 555-5555
+              (555) 555-5555
 
             </div>
           </div>
