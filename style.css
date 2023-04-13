@@ -17,50 +17,43 @@ body {
     border-radius: -2px;
 }
 
-.button-29 {
-  align-items: center;
-  appearance: none;
-  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #399367 100%);
-  border: 0;
-  border-radius: 6px;
-  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
-  box-sizing: border-box;
-  color: #ffffff;
-  cursor: pointer;
-  display: inline-flex;
-  font-family: "JetBrains Mono",monospace;
-  height: 48px;
-  width: 140px;
-  justify-content: center;
-  line-height: 1;
-  list-style: none;
-  overflow: hidden;
-  padding-left: 16px;
-  padding-right: 16px;
-  position: relative;
-  text-align: left;
-  text-decoration: none;
-  transition: box-shadow .15s,transform .15s;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  white-space: nowrap;
-  will-change: box-shadow,transform;
-  font-size: 15px;
+.dropdown-menu {
+  background-color: #33ABCA;
 }
 
-.button-29:focus {
-  box-shadow: #277738 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+.continents-button-class {
+  background-color: #FF0000;
+  color: #FFFFFF;
 }
 
-.button-29:hover {
-  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #127130 0 -3px 0 inset;
-  transform: translateY(-2px);
+.about-us-button-class{
+  background-color: rgba(0, 255, 0, .2);
+  color: #000000;
 }
 
-.button-29:active {
-  box-shadow: #288671 0 3px 7px inset;
-  transform: translateY(2px);
+.navbar-class{
+  background-color: rgba(122, 198, 217, 1);
+background-color: transparent;    
+}
+
+.navbar-btn-class{
+  background-color: rgba(122, 198, 217, .5);
+  font-weight: 450;
+  color: #000000;
+}
+
+.inner-clr{
+  background-color: #33ABCA;
+  box-shadow: 3px 3px 5px #08596D;
+}
+
+.inner-clrn {
+background-color: #33ABCA;
+}
+
+.mid-clr{
+  
+  box-shadow: 5px 5px 5px #3A7A8A;
 }
 
 /*End of Navbar css*/
@@ -246,36 +239,7 @@ p {
 
 
 
-.continents-button-class {
-    background-color: #FF0000;
-    color: #FFFFFF;
-}
 
-.about-us-button-class{
-    background-color: rgba(0, 255, 0, .2);
-    color: #000000;
-}
-
-.navbar-class{
-    background-color: rgba(122, 198, 217, 1);
- background-color: transparent;    
-}
-
-.navbar-btn-class{
-    background-color: rgba(122, 198, 217, .5);
-    font-weight: 450;
-    color: #000000;
-}
-
-.inner-clr{
-    background-color: #33ABCA;
-    box-shadow: 3px 3px 5px #08596D;
-}
-
-.mid-clr{
-    
-    box-shadow: 5px 5px 5px #3A7A8A;
-}
 
 
 
