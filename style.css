@@ -1,20 +1,20 @@
-body {  
-    background: rgb(122,198,217);
-    background: radial-gradient(circle, rgba(122,198,217,1) 0%, rgba(205,245,255,1) 100%);
+body {
+  background: rgb(122, 198, 217);
+  background: radial-gradient(circle, rgba(122, 198, 217, 1) 0%, rgba(205, 245, 255, 1) 100%);
 }
 
 
-  
+
 #homeimg {
-    display: flex;
+  display: flex;
 }
 
 /*Navbar css*/
 
 .logonav {
-    width: 100px;
-    height: 100px;
-    border-radius: -2px;
+  width: 100px;
+  height: 100px;
+  border-radius: -2px;
 }
 
 .dropdown-menu {
@@ -26,33 +26,42 @@ body {
   color: #FFFFFF;
 }
 
-.about-us-button-class{
+.about-us-button-class {
   background-color: rgba(0, 255, 0, .2);
   color: #000000;
 }
 
-.navbar-class{
+.navbar-class {
   background-color: rgba(122, 198, 217, 1);
-background-color: transparent;    
+  background-color: transparent;
 }
 
-.navbar-btn-class{
+.navbar-btn-class {
   background-color: rgba(122, 198, 217, .5);
   font-weight: 450;
   color: #000000;
 }
 
-.inner-clr{
+.inner-clr {
   background-color: #33ABCA;
   box-shadow: 3px 3px 5px #08596D;
 }
 
 .inner-clrn {
-background-color: #33ABCA;
+  background-color: #33ABCA;
 }
 
-.mid-clr{
-  
+.btn-inner-clr:hover,
+.btn-inner-clr:focus,
+.btn-inner-clr:active,
+.btn-inner-clr.active,
+.open>.dropdown-toggle.btn-inner-clr {
+  color: #fff;
+  background-color: #08596D;
+}
+
+.mid-clr {
+
   box-shadow: 5px 5px 5px #3A7A8A;
 }
 
@@ -61,12 +70,13 @@ background-color: #33ABCA;
 /*Beginning of Card carousel*/
 
 .card-carousel {
-    align-items: center;
-    justify-items: center;
-    background-color: #7AC6D9;
+  align-items: center;
+  justify-items: center;
+  background-color: #7AC6D9;
 }
+
 .carouselExampleControls {
-    padding:5%;
+  padding: 5%;
 }
 
 /*End of Card carousel*/
@@ -75,16 +85,16 @@ background-color: #33ABCA;
 /*Card carousel*/
 
 .card_names h1 {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #3c4fe0;
-    background-color: rgb(9,121,55);
-    background-color: linear-gradient(90deg, rgba(9,121,55,1) 31%, rgba(0,255,96,1) 77%);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #3c4fe0;
+  background-color: rgb(9, 121, 55);
+  background-color: linear-gradient(90deg, rgba(9, 121, 55, 1) 31%, rgba(0, 255, 96, 1) 77%);
 }
 
 .card-carousel {
-    background-color: linear-gradient(90deg, rgba(9,121,55,1) 31%, rgba(0,255,96,1) 77%);
+  background-color: linear-gradient(90deg, rgba(9, 121, 55, 1) 31%, rgba(0, 255, 96, 1) 77%);
 }
 
 /*End of Card carousel*/
@@ -98,19 +108,20 @@ background-color: #33ABCA;
 @import url(//fonts.googleapis.com/css?family=Lato:300:400);
 
 body {
-  margin:0;
+  margin: 0;
 }
 
 h1 {
   font-family: 'Lato', sans-serif;
-  font-weight:300;
+  font-weight: 300;
   letter-spacing: 2px;
-  font-size:48px;
+  font-size: 48px;
 }
+
 p {
   font-family: 'Lato', sans-serif;
   letter-spacing: 1px;
-  font-size:14px;
+  font-size: 14px;
   color: #333333;
 }
 
@@ -119,7 +130,8 @@ p {
 
 
 
-.flex { /*Flexbox for containers*/
+.flex {
+  /*Flexbox for containers*/
   display: flex;
   justify-content: center;
   align-items: center;
@@ -127,56 +139,66 @@ p {
 }
 
 .waves {
-  position:relative;
+  position: relative;
   width: 100%;
-  height:15vh;
-  margin-bottom:-7px; /*Fix for safari gap*/
-  min-height:100px;
-  max-height:20px;
+  height: 15vh;
+  margin-bottom: -7px;
+  /*Fix for safari gap*/
+  min-height: 100px;
+  max-height: 20px;
 }
 
 
 
 /* Animation */
 
-.parallax > use {
-  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
+.parallax>use {
+  animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
 }
-.parallax > use:nth-child(1) {
+
+.parallax>use:nth-child(1) {
   animation-delay: -2s;
   animation-duration: 7s;
 }
-.parallax > use:nth-child(2) {
+
+.parallax>use:nth-child(2) {
   animation-delay: -3s;
   animation-duration: 10s;
 }
-.parallax > use:nth-child(3) {
+
+.parallax>use:nth-child(3) {
   animation-delay: -4s;
   animation-duration: 13s;
 }
-.parallax > use:nth-child(4) {
+
+.parallax>use:nth-child(4) {
   animation-delay: -5s;
   animation-duration: 20s;
 }
+
 @keyframes move-forever {
   0% {
-   transform: translate3d(-90px,0,0);
+    transform: translate3d(-90px, 0, 0);
   }
-  100% { 
-    transform: translate3d(85px,0,0);
+
+  100% {
+    transform: translate3d(85px, 0, 0);
   }
 }
+
 /*Shrinking for mobile*/
 @media (max-width: 780px) {
   .waves {
     height: 20px;
-    min-height:40px;
+    min-height: 40px;
   }
+
   .content {
-    height:30vh;
+    height: 30vh;
   }
+
   h1 {
-    font-size:24px;
+    font-size: 24px;
   }
 }
 
@@ -185,63 +207,47 @@ p {
 /*Beginning of footer*/
 
 .footer-section {
-    background-color: #7AC6D9;
+  background-color: #7AC6D9;
 }
 
 /*End of footer*/
 
 
-
+/*Parallax*/
 
 .parallax {
-    background-image: url();
-  
-    min-height: 500px;
- 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  background-image: url(/images/Tropical.jpg);
+  min-height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 
 .b2t {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    background-color: #FFF;
-    color: #178949;
-    font-size: 32px;
-    border: none;
-    outline: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    transition: all .4s;
-    pointer-events: none;
-    opacity: 0;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: #FFF;
+  color: #178949;
+  font-size: 32px;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: all .4s;
+  pointer-events: none;
+  opacity: 0;
 }
 
 .b2t.active {
-    pointer-events: auto;
-    opacity: 1;
+  pointer-events: auto;
+  opacity: 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
