@@ -1,9 +1,6 @@
 body {
-  background: rgb(122, 198, 217);
-  background: radial-gradient(circle, rgba(122, 198, 217, 1) 0%, rgba(205, 245, 255, 1) 100%);
+  background-color: #abdaf4;
 }
-
-
 
 #homeimg {
   display: flex;
@@ -217,7 +214,7 @@ p {
 
 .parallax {
   background-image: url(/images/Tropical.jpg);
-  min-height: 800px;
+  min-height: 500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
