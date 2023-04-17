@@ -18,11 +18,6 @@ body {
   background-color: #33ABCA;
 }
 
-.continents-button-class {
-  background-color: #FF0000;
-  color: #FFFFFF;
-}
-
 .about-us-button-class {
   background-color: rgba(0, 255, 0, .2);
   color: #000000;
@@ -36,16 +31,25 @@ body {
 .navbar-btn-class {
   background-color: rgba(122, 198, 217, .5);
   font-weight: 450;
-  color: #000000;
+  color: #FFF;
 }
 
 .inner-clr {
+  color: #FFF;
   background-color: #33ABCA;
   box-shadow: 3px 3px 5px #08596D;
 }
 
 .inner-clrn {
+  color: #FFF;
   background-color: #33ABCA;
+  box-shadow: inset 0px -1px #3A7A8A;
+}
+
+.inner-clrn1 {
+  color: #FFF;
+  background-color: #33AbCA;
+  box-shadow:  inset 0px 1px #3A7A8A, inset 0px -1px #3A7A8A;
 }
 
 .btn-inner-clr:hover,
@@ -67,6 +71,12 @@ body {
 /*Beginning of Card carousel*/
 
 .card-carousel {
+  align-items: center;
+  justify-items: center;
+  background-color: #7AC6D9;
+}
+
+.card-gums {
   align-items: center;
   justify-items: center;
   background-color: #7AC6D9;
@@ -213,12 +223,18 @@ p {
 /*Parallax*/
 
 .parallax {
-  background-image: url(/images/Tropical.jpg);
-  min-height: 500px;
+  background-image: url(/images/Seahouse.png);
+  min-height: 300px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.card-parallax {
+  text-align: center;
+  align-items: center;
+  background-color: #abdaf4;
 }
 
 
