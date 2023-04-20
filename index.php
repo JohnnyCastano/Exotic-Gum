@@ -2,6 +2,11 @@
   include_once 'includes/dbh.inc.php';
 ?> 
 
+
+<!--http://localhost/ExoticGum/images-->
+<!--/images-->
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,7 +15,7 @@
   <meta name="description" content="">
   <meta name="author" content="Andrew Ellis, Johnny Martinez, Champ Nguyen">
   <meta name="keywords" content="Gum, exotic flavors, Exotic Gum, World Gum">
-  <link rel="shortcut icon" href="/images/images/newlogo.png">
+  <link rel="shortcut icon" href="/images/newlogo.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <title>Exotic Gum!</title>
@@ -27,8 +32,8 @@
   <section>
     <div class="container-fluid">
       <nav class="navbar navbar-expand-sm fixed-top">
-        <a class="navbar-brand ms-auto" href="index.html">
-          <img src="/images/newlogo.png" class="logonav">
+        <a class="navbar-brand ms-auto" href="index.php">
+          <img src="http://localhost/ExoticGum/images/newlogo.png" class="logonav">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -78,13 +83,13 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="/images/Tropical.png" class="d-block w-100 h-40" alt="...">
+          <img src = "http://localhost/ExoticGum/images/Tropical.png" class="d-block w-100 h-40" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="/images/Desert.png" class="d-block w-100 h-40" alt="...">
+          <img src = "http://localhost/ExoticGum/images/Desert.png" class="d-block w-100 h-40" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="/images/Beach.png" class="d-block w-100 h-40" alt="...">
+          <img src = "http://localhost/ExoticGum/images/Beach.png" class="d-block w-100 h-40" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -128,7 +133,7 @@
                         <a href="Order.html" class="btn btn-inner-clr inner-clr">
                           Order Here!
                         </a>
-                        <a href="index.html"><img class="card-img-top" src="/images/Birria.png" alt="Card image"></a>
+                        <a href="index.html"><img class="card-img-top" src = "http://localhost/ExoticGum/images/Birria.png" alt="Card image"></a>
                         <p class="card-text">
                           Order from our online menu and have it delivered straight to your door!
                         </p>
@@ -147,7 +152,7 @@
                         <a href="Order.html" class="btn btn-inner-clr inner-clr">
                           Order Here!
                         </a>
-                        <a href="index.html"><img class="card-img-top" src="/images/Empanada.png" alt="Card image"></a>
+                        <a href="index.html"><img class="card-img-top" src = "http://localhost/ExoticGum/images/Empanada.png" alt="Card image"></a>
                         <p class="card-text">
                           Order from our online menu and have it delivered straight to your door!
                         </p>
@@ -166,7 +171,7 @@
                         <a href="Order.html" class="btn btn-inner-clr inner-clr">
                           Order Here!
                         </a>
-                        <a href="index.html"><img class="card-img-top" src="/images/Viscacha.png" alt="Card image"></a>
+                        <a href="index.html"><img class="card-img-top" src = "http://localhost/ExoticGum/images/Viscacha.png" alt="Card image"></a>
                         <p class="card-text">
                           Order from our online menu and have it delivered straight to your door!
                         </p>
@@ -198,7 +203,7 @@
                         <a href="Order.html" class="btn btn-inner-clr inner-clr">
                           Order Online
                         </a>
-                        <a href="index.html"><img class="card-img-top" src="/images/Birria.png" alt="Card image"></a>
+                        <a href="index.html"><img class="card-img-top" src = "http://localhost/ExoticGum/images/Birria.png" alt="Card image"></a>
                         <p class="card-text">
                           Order from our online menu and have it delivered straight to your door!
                         </p>
@@ -217,7 +222,7 @@
                         <a href="Order.html" class="btn btn-inner-clr inner-clr">
                           Order Online
                         </a>
-                        <a href="index.html"><img class="card-img-top" src="/images/Empanada.png" alt="Card image"></a>
+                        <a href="index.html"><img class="card-img-top" src = "http://localhost/ExoticGum/images/Empanada.png" alt="Card image"></a>
                         <p class="card-text">
                           Order from our online menu and have it delivered straight to your door!
                         </p>
@@ -236,7 +241,7 @@
                         <a href="Order.html" class="btn btn-inner-clr inner-clr">
                           Order Online
                         </a>
-                        <a href="index.html"><img class="card-img-top" src="/images/Viscacha.png" alt="Card image"></a>
+                        <a href="index.html"><img class="card-img-top" src = "http://localhost/ExoticGum/images/Viscacha.png" alt="Card image"></a>
                         <p class="card-text">
                           Order from our online menu and have it delivered straight to your door!
                         </p>
@@ -361,16 +366,16 @@
             <br>
             <br>
             <a href="https://www.facebook.com/profile.php?id=100091569529499">
-              <img src="/images/Facebook_Logo.png" height="50px">
+              <img src = "http://localhost/ExoticGum/images/Facebook_Logo.png" height="50px">
             </a>
             <a href="https://instagram.com/exotic_gum?igshid=YmMyMTA2M2Y=">
-              <img src="/images/Instagram_logo.png" height="50px">
+              <img src = "http://localhost/ExoticGum/images/Instagram_logo.png" height="50px">
             </a>
           </div>
           <div class="col-md-4">
             <br>
             <a href="#top">
-              <img src="/images/newlogo.png " height="150px">
+              <img src = "http://localhost/ExoticGum/images/newlogo.png " height="150px">
             </a>
             <br>
           </div>
