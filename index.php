@@ -1,6 +1,6 @@
 <?php
-  include_once 'includes/dbh.inc.php';
-?> 
+include_once 'includes/dbh.inc.php';
+?>
 
 
 <!--http://localhost/ExoticGum/images-->
@@ -9,6 +9,7 @@
 
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -42,22 +43,22 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul class="navbar-nav ">
             <li class="nav-item px-2">
-              <a href="Specialties.html" class="nav-link btn btn-inner-clr inner-clr">
+              <a href="Specialties.php" class="nav-link btn btn-inner-clr inner-clr">
                 Specialty Gums!
               </a>
             </li>
             <li class="nav-item px-2">
-              <a href="Our_gums.html" class="nav-link btn btn-inner-clr inner-clr">
+              <a href="Our_gums.php" class="nav-link btn btn-inner-clr inner-clr">
                 Our Gums!
               </a>
             </li>
             <li class="nav-item px-2">
-              <a href="Contact.html" class="nav-link btn btn-inner-clr inner-clr">
+              <a href="Contact.php" class="nav-link btn btn-inner-clr inner-clr">
                 Contact Us!
               </a>
             </li>
             <li class="nav-item px-2">
-              <a href="About.html" class="nav-link btn btn-inner-clr inner-clr">
+              <a href="About.php" class="nav-link btn btn-inner-clr inner-clr">
                 About Us!
               </a>
             </li>
@@ -83,13 +84,13 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src = "http://localhost/ExoticGum/images/Tropical.png" class="d-block w-100 h-40" alt="...">
+          <img src="http://localhost/ExoticGum/images/Tropical.png" class="d-block w-100 h-40" alt="...">
         </div>
         <div class="carousel-item">
-          <img src = "http://localhost/ExoticGum/images/Desert.png" class="d-block w-100 h-40" alt="...">
+          <img src="http://localhost/ExoticGum/images/Desert.png" class="d-block w-100 h-40" alt="...">
         </div>
         <div class="carousel-item">
-          <img src = "http://localhost/ExoticGum/images/Beach.png" class="d-block w-100 h-40" alt="...">
+          <img src="http://localhost/ExoticGum/images/Beach.png" class="d-block w-100 h-40" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -126,17 +127,18 @@
                   <div class="card card-carousel mid-clr">
                     <div class="card-body text-center">
                       <p>
-                        <h5 class="card-title">
-                          Birria!
-                        </h5>
-                        <hr>
-                        <a href="Order.html" class="btn btn-inner-clr inner-clr">
-                          Order Here!
-                        </a>
-                        <a href="index.html"><img class="card-img-top" src = "http://localhost/ExoticGum/images/Birria.png" alt="Card image"></a>
-                        <p class="card-text">
-                          Order from our online menu and have it delivered straight to your door!
-                        </p>
+                      <h5 class="card-title">
+                        Birria!
+                      </h5>
+                      <hr>
+                      <a href="buy.php" class="btn btn-inner-clr inner-clr">
+                        Order Here!
+                      </a>
+                      <a href="index.php"><img class="card-img-top" src="http://localhost/ExoticGum/images/Birria.png"
+                          alt="Card image"></a>
+                      <p class="card-text">
+                        Order from our online menu and have it delivered straight to your door!
+                      </p>
                       </p>
                     </div>
                   </div>
@@ -145,17 +147,18 @@
                   <div class="card card-carousel mid-clr">
                     <div class="card-body text-center">
                       <p>
-                        <h5 class="card-title">
-                          Empanada!
-                        </h5>
-                        <hr>
-                        <a href="Order.html" class="btn btn-inner-clr inner-clr">
-                          Order Here!
-                        </a>
-                        <a href="index.html"><img class="card-img-top" src = "http://localhost/ExoticGum/images/Empanada.png" alt="Card image"></a>
-                        <p class="card-text">
-                          Order from our online menu and have it delivered straight to your door!
-                        </p>
+                      <h5 class="card-title">
+                        Empanada!
+                      </h5>
+                      <hr>
+                      <a href="buy.php" class="btn btn-inner-clr inner-clr">
+                        Order Here!
+                      </a>
+                      <a href="index.php"><img class="card-img-top" src="http://localhost/ExoticGum/images/Empanada.png"
+                          alt="Card image"></a>
+                      <p class="card-text">
+                        Order from our online menu and have it delivered straight to your door!
+                      </p>
                       </p>
                     </div>
                   </div>
@@ -164,17 +167,18 @@
                   <div class="card card-carousel mid-clr">
                     <div class="card-body text-center">
                       <p>
-                        <h5 class="card-title">
-                          Viscacha!
-                        </h5>
-                        <hr>
-                        <a href="Order.html" class="btn btn-inner-clr inner-clr">
-                          Order Here!
-                        </a>
-                        <a href="index.html"><img class="card-img-top" src = "http://localhost/ExoticGum/images/Viscacha.png" alt="Card image"></a>
-                        <p class="card-text">
-                          Order from our online menu and have it delivered straight to your door!
-                        </p>
+                      <h5 class="card-title">
+                        Viscacha!
+                      </h5>
+                      <hr>
+                      <a href="buy.php" class="btn btn-inner-clr inner-clr">
+                        Order Here!
+                      </a>
+                      <a href="index.php"><img class="card-img-top" src="http://localhost/ExoticGum/images/Viscacha.png"
+                          alt="Card image"></a>
+                      <p class="card-text">
+                        Order from our online menu and have it delivered straight to your door!
+                      </p>
                       </p>
                     </div>
                   </div>
@@ -196,17 +200,18 @@
                   <div class="card card-carousel mid-clr">
                     <div class="card-body text-center">
                       <p>
-                        <h5 class="card-title">
-                          Delivery
-                        </h5>
-                        <hr>
-                        <a href="Order.html" class="btn btn-inner-clr inner-clr">
-                          Order Online
-                        </a>
-                        <a href="index.html"><img class="card-img-top" src = "http://localhost/ExoticGum/images/Birria.png" alt="Card image"></a>
-                        <p class="card-text">
-                          Order from our online menu and have it delivered straight to your door!
-                        </p>
+                      <h5 class="card-title">
+                        Delivery
+                      </h5>
+                      <hr>
+                      <a href="buy.php" class="btn btn-inner-clr inner-clr">
+                        Order Online
+                      </a>
+                      <a href="index.php"><img class="card-img-top" src="http://localhost/ExoticGum/images/Birria.png"
+                          alt="Card image"></a>
+                      <p class="card-text">
+                        Order from our online menu and have it delivered straight to your door!
+                      </p>
                       </p>
                     </div>
                   </div>
@@ -215,17 +220,18 @@
                   <div class="card card-carousel mid-clr">
                     <div class="card-body text-center">
                       <p>
-                        <h5 class="card-title">
-                          Delivery
-                        </h5>
-                        <hr>
-                        <a href="Order.html" class="btn btn-inner-clr inner-clr">
-                          Order Online
-                        </a>
-                        <a href="index.html"><img class="card-img-top" src = "http://localhost/ExoticGum/images/Empanada.png" alt="Card image"></a>
-                        <p class="card-text">
-                          Order from our online menu and have it delivered straight to your door!
-                        </p>
+                      <h5 class="card-title">
+                        Delivery
+                      </h5>
+                      <hr>
+                      <a href="buy.php" class="btn btn-inner-clr inner-clr">
+                        Order Online
+                      </a>
+                      <a href="index.php"><img class="card-img-top" src="http://localhost/ExoticGum/images/Empanada.png"
+                          alt="Card image"></a>
+                      <p class="card-text">
+                        Order from our online menu and have it delivered straight to your door!
+                      </p>
                       </p>
                     </div>
                   </div>
@@ -234,17 +240,18 @@
                   <div class="card card-carousel mid-clr">
                     <div class="card-body text-center">
                       <p>
-                        <h5 class="card-title">
-                          Delivery
-                        </h5>
-                        <hr>
-                        <a href="Order.html" class="btn btn-inner-clr inner-clr">
-                          Order Online
-                        </a>
-                        <a href="index.html"><img class="card-img-top" src = "http://localhost/ExoticGum/images/Viscacha.png" alt="Card image"></a>
-                        <p class="card-text">
-                          Order from our online menu and have it delivered straight to your door!
-                        </p>
+                      <h5 class="card-title">
+                        Delivery
+                      </h5>
+                      <hr>
+                      <a href="buy.php" class="btn btn-inner-clr inner-clr">
+                        Order Online
+                      </a>
+                      <a href="index.php"><img class="card-img-top" src="http://localhost/ExoticGum/images/Viscacha.png"
+                          alt="Card image"></a>
+                      <p class="card-text">
+                        Order from our online menu and have it delivered straight to your door!
+                      </p>
                       </p>
                     </div>
                   </div>
@@ -305,7 +312,7 @@
                 <h5 class="card-title">Want to Know More About our Company?</h5>
                 <div class="row">
                   <p class="card-text">
-                   
+
                   </p>
                 </div>
                 <div class="row">
@@ -313,7 +320,7 @@
                   </p>
                 </div>
                 <br>
-                <a href="About.html" class="btn btn-inner-clr inner-clr">
+                <a href="About.php" class="btn btn-inner-clr inner-clr">
                   About Us!
                 </a>
               </div>
@@ -332,23 +339,23 @@
   <!--Back to Top button-->
 
 
-  
+
   <!--End to Top button-->
 
   <!--CSS Waves-->
 
-      <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-        viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-        <defs>
-          <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-        </defs>
-        <g class="parallax">
-          <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(122,198,217,0.7" />
-          <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(109,178,195,0.5)" />
-          <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(122,198,217,0.3)" />
-          <use xlink:href="#gentle-wave" x="48" y="7" fill="#7AC6D9" />
-        </g>
-      </svg>
+  <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28"
+    preserveAspectRatio="none" shape-rendering="auto">
+    <defs>
+      <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+    </defs>
+    <g class="parallax">
+      <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(122,198,217,0.7" />
+      <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(109,178,195,0.5)" />
+      <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(122,198,217,0.3)" />
+      <use xlink:href="#gentle-wave" x="48" y="7" fill="#7AC6D9" />
+    </g>
+  </svg>
 
   <!--End of waves-->
 
@@ -366,16 +373,16 @@
             <br>
             <br>
             <a href="https://www.facebook.com/profile.php?id=100091569529499">
-              <img src = "http://localhost/ExoticGum/images/Facebook_Logo.png" height="50px">
+              <img src="http://localhost/ExoticGum/images/Facebook_Logo.png" height="50px">
             </a>
             <a href="https://instagram.com/exotic_gum?igshid=YmMyMTA2M2Y=">
-              <img src = "http://localhost/ExoticGum/images/Instagram_logo.png" height="50px">
+              <img src="http://localhost/ExoticGum/images/Instagram_logo.png" height="50px">
             </a>
           </div>
           <div class="col-md-4">
             <br>
             <a href="#top">
-              <img src = "http://localhost/ExoticGum/images/newlogo.png " height="150px">
+              <img src="http://localhost/ExoticGum/images/newlogo.png " height="150px">
             </a>
             <br>
           </div>
@@ -409,7 +416,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
-  </script>
+    </script>
 </body>
 
 </html>
