@@ -134,7 +134,7 @@ include_once 'includes/dbh.inc.php';
                 </h5>
             </div>
             <div class="col-md-6 mx-auto">
-                <img src="/images/Seahouse.png" alt="">
+                <img src="http://localhost/ExoticGum/images/Seahouse.png" alt="">
             </div>
         </div>
     </div>
