@@ -12,8 +12,7 @@ include_once 'includes/dbh.inc.php';
     <meta name="keywords" content="">
     <link rel="shortcut icon" href="">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
     <title>About Us!</title>
 
@@ -31,9 +30,7 @@ include_once 'includes/dbh.inc.php';
             <a class="navbar-brand ms-auto" href="index.php">
                 <img src="http://localhost/ExoticGum/images/newlogo.png" class="logonav">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
@@ -80,7 +77,7 @@ include_once 'includes/dbh.inc.php';
             </div>
             <div class="col-md-2 mx-auto">
                 <div class="text-center">
-                    <h5>Jake, Maria, and Alex loved unique flavors and decided to create a website called "Exotic Gum".
+                    <h5>Jhonny, Clamp, and Adnrew loved unique flavors and decided to create a website called "Exotic Gum".
                         They
                         spent months developing the perfect recipes for each flavor. They scoured the globe for the most
                         unusual and exciting flavors, from spicy cinnamon to fruity lychee. They sourced high-quality
@@ -118,8 +115,20 @@ include_once 'includes/dbh.inc.php';
         <div class="row align-items-center justify-content-center text-center">
             <div class="col-md-6 mx-auto">
                 <h2>Why we do it</h2>
-                <h5>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                <h5>What we want is to promote cultural diversity and encourage people to explore new flavors and experiences. By offering a wide variety of unique and interesting gum flavors from different parts of the world, Exotic Gum can provide an opportunity for people to expand their palate and learn about different cultures and cuisines.
+
+                    Additionally, creating exotic gum flavors is a way for us to promote creativity and innovation in the world of confectionery. By pushing the boundaries of what is traditionally considered "normal" for gum flavors, Exotic Gum can inspire other companies to take risks and experiment with new ideas in their own products.
+
+                    Ultimately, the goal of creating a diverse range of gum flavors could be to bring people together through a shared love of interesting and exciting flavors. By providing a common ground for people to connect over their love of gum, Exotic Gum could promote a sense of community and unity among individuals from all walks of life, regardless of their cultural background or personal preferences.
                 </h5>
+            </div>
+            <div class="col-md-6 mx-auto">
+                <img src="/images/Culture.png">
+            </div>
+        </div>
+        <div class="row align-items-center justify-content-center text-center">
+            <div class="col-md-6 mx-auto">
+                <img src="/images/Factory.png">
             </div>
             <div class="col-md-6 mx-auto">
                 <h2>How we do it</h2>
@@ -129,12 +138,67 @@ include_once 'includes/dbh.inc.php';
         </div>
         <div class="row align-items-center justify-content-center text-center">
             <div class="col-md-6 mx-auto">
-                <h2>Why we do it</h2>
+                <h2>Where we do it</h2>
                 <h5>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 </h5>
             </div>
             <div class="col-md-6 mx-auto">
                 <img src="http://localhost/ExoticGum/images/Seahouse.png" alt="">
+            </div>
+        </div>
+        <div class="row align-items-center justify-content-center text-center">
+            <div>
+                <h1>Our Founders!</h1>
+            </div>
+            <div class="col-md-12 mx-auto">
+                <div class="card card-About mid-clr">
+                    <div class="card-body text-center">
+                        <p>
+                        <h5 class="card-title">
+                            Empanada!
+                        </h5>
+                        <hr>
+                        <a href="index.php"><img class="card-img-top" src="http://localhost/ExoticGum/images/Empanada.png" alt="Card image"></a>
+                        <p class="card-text">
+                            Order from our online menu and have it delivered straight to your door!
+                        </p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-12 mx-auto">
+                <div class="card card-About mid-clr">
+                    <div class="card-body text-center">
+                        <p>
+                        <h5 class="card-title">
+                            Empanada!
+                        </h5>
+                        <hr>
+                        <a href="index.php"><img class="card-img-top" src="http://localhost/ExoticGum/images/Empanada.png" alt="Card image"></a>
+                        <p class="card-text">
+                            Order from our online menu and have it delivered straight to your door!
+                        </p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-12 mx-auto">
+                <div class="card card-About mid-clr">
+                    <div class="card-body text-center">
+                        <p>
+                        <h5 class="card-title">
+                            Empanada!
+                        </h5>
+                        <hr>
+                        <a href="index.php"><img class="card-img-top" src="http://localhost/ExoticGum/images/Empanada.png" alt="Card image"></a>
+                        <p class="card-text">
+                            Order from our online menu and have it delivered straight to your door!
+                        </p>
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -145,8 +209,7 @@ include_once 'includes/dbh.inc.php';
 
 <!--CSS Waves-->
 
-<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28"
-    preserveAspectRatio="none" shape-rendering="auto">
+<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
     <defs>
         <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
     </defs>
@@ -212,9 +275,8 @@ include_once 'includes/dbh.inc.php';
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
-    </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+</script>
 
 
 </body>
