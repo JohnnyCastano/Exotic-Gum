@@ -220,7 +220,7 @@ p {
 /*Parallax*/
 
 .parallax {
-  background-image: url(/images/Seahouse.png);
+  background-image: url(http://localhost/ExoticGum/images/Seahouse.png);
   min-height: 300px;
   background-attachment: fixed;
   background-position: center;

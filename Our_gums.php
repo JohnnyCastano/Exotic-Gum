@@ -18,6 +18,11 @@ include_once 'includes/dbh.inc.php';
   <script src="https://kit.fontawesome.com/1c0e6c2e01.js" crossorigin="anonymous"></script>
 </head>
 
+<!-- 
+  Ant = caps 
+  ant = lower
+-->
+
 <body>
 
   <!--This is the sites navbar-->
@@ -59,237 +64,194 @@ include_once 'includes/dbh.inc.php';
       </nav>
     </div>
   </section>
-
-  <section class="parallax-section">
-    <div class="parallax">
-      <!-- end of the parallax -->
+  <br>
 
 
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#abdaf4" fill-opacity="1"
-          d="M0,96L48,122.7C96,149,192,203,288,208C384,213,480,171,576,144C672,117,768,107,864,117.3C960,128,1056,160,1152,154.7C1248,149,1344,107,1392,85.3L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
-        </path>
-      </svg>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
 
-      <div class="container-fluid text-center">
-        <div class="row">
-          <div class="col-sm-3 mx-auto">
-            <div class="card card-parallax-gum">
-              <div class="card-body">
-                <h2 class="card-title">Ethiopian Gum!</h2>
-              </div>
-            </div>
-          </div>
+  <!--Modals-->
+
+  <div class="modal fade " id="AcaiModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog-centered modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Acai Gum</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <br>
-        <Br>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col">
-            <div class="card card-gums text-center h-100 mx-4 px-4 py-2">
-              <img src="/images/Birria.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">
-                  --Gum--
-                </h5>
-                <hr>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
-                <a href="Order.html" class="btn btn-inner-clr inner-clr">
-                  Add To Cart!
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card card-gums text-center h-100 mx-4 px-4 py-2">
-              <img src="/images/Birria.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">
-                  --Gum--
-                </h5>
-                <hr>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
-                <a href="Order.html" class="btn btn-inner-clr inner-clr">
-                  Add To Cart!
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card card-gums text-center h-100 mx-4 px-4 py-2">
-              <img src="/images/Birria.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">
-                  --Gum--
-                </h5>
-                <hr>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
-                <a href="Order.html" class="btn btn-inner-clr inner-clr">
-                  Add To Cart!
-                </a>
-              </div>
-            </div>
-          </div>
+        <div class="modal-body">
+          <img src="http://localhost/ExoticGum/images/acai.png" class="card-img-top" alt="Acai Gum">
+          <p>
+            Acai flavored gum is a delicious and refreshing chewing gum that offers a sweet and tangy taste of acai
+            berries. The gum is made with natural flavors and ingredients and is designed to freshen breath and promote
+            oral health. Acai is a superfood known for its high antioxidant content and is a popular flavor in many
+            health-conscious products. Acai flavored gum is a great option for those looking for a tasty and convenient
+            way to enjoy the benefits of this superfood.
+          </p>
         </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#abdaf4" fill-opacity="1"
-          d="M0,96L48,122.7C96,149,192,203,288,208C384,213,480,171,576,144C672,117,768,107,864,117.3C960,128,1056,160,1152,154.7C1248,149,1344,107,1392,85.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-        </path>
-      </svg>
-
-    </div>
-  </section>
-
-  <div class="container-fluid text-center">
-    <div class="row">
-      <div class="col-sm-3 mx-auto">
-        <div class="card card-parallax-gum">
-          <div class="card-body">
-            <h2 class="card-title">Nigerian Gum!</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-    <br>
-    <Br>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-      <div class="col">
-        <div class="card card-gums text-center h-100 mx-4 px-4 py-2">
-          <img src="/images/Birria.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">
-              --Gum--
-            </h5>
-            <hr>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.</p>
-            <a href="Order.html" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card card-gums text-center h-100 mx-4 px-4 py-2">
-          <img src="/images/Birria.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">
-              --Gum--
-            </h5>
-            <hr>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.</p>
-            <a href="Order.html" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card card-gums text-center h-100 mx-4 px-4 py-2">
-          <img src="/images/Birria.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">
-              --Gum--
-            </h5>
-            <hr>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.</p>
-            <a href="Order.html" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
-            </a>
-          </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-inner-clr inner-clr" data-bs-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
   </div>
-  <section class="parallax-section">
-    <div class="parallax">
-      <!-- end of the parallax -->
 
-
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#abdaf4" fill-opacity="1"
-          d="M0,32L48,32C96,32,192,32,288,64C384,96,480,160,576,170.7C672,181,768,139,864,117.3C960,96,1056,96,1152,106.7C1248,117,1344,139,1392,149.3L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
-        </path>
-      </svg>
-      <div class="container-fluid text-center">
-        <div class="row">
-          <div class="col-sm-3 mx-auto">
-            <div class="card card-parallax-gum">
-              <div class="card-body">
-                <h2 class="card-title">Sudanese Gum!</h2>
-              </div>
-            </div>
-          </div>
+  <div class="modal fade " id="AntModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog-centered modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Ant Gum</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <br>
-        <Br>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col">
-            <div class="card card-gums text-center h-100 mx-4 px-4 py-2">
-              <img src="/images/Birria.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">
-                  --Gum--
-                </h5>
-                <hr>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                  additional
-                  content. This content is a little bit longer.</p>
-                <a href="Order.html" class="btn btn-inner-clr inner-clr">
-                  Add To Cart!
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card card-gums text-center h-100 mx-4 px-4 py-2">
-              <img src="/images/Birria.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">
-                  --Gum--
-                </h5>
-                <hr>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                  additional
-                  content. This content is a little bit longer.</p>
-                <a href="Order.html" class="btn btn-inner-clr inner-clr">
-                  Add To Cart!
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card card-gums text-center h-100 mx-4 px-4 py-2">
-              <img src="/images/Birria.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">
-                  --Gum--
-                </h5>
-                <hr>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                  additional
-                  content. This content is a little bit longer.</p>
-                <a href="Order.html" class="btn btn-inner-clr inner-clr">
-                  Add To Cart!
-                </a>
-              </div>
-            </div>
+        <div class="modal-body">
+          <img src="http://localhost/ExoticGum/images/ant.png" class="card-img-top" alt="Ant Gum">
+          <p>
+            Ant flavored gum is a highly unconventional and exotic product that may be considered a novelty by some. The
+            gum is likely to have a unique and pungent taste, with hints of acidity and bitterness that are
+            characteristic of ants. The texture of the gum may be crunchy or chewy, depending on how the ants are
+            incorporated into the recipe. While the idea of eating ants may be unsettling to some, it is worth noting
+            that ants are a common food source in many cultures around the world and are considered a delicacy in some
+            places.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-inner-clr inner-clr" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade " id="AseedaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog-centered modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Aseeda Gum</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="http://localhost/ExoticGum/images/aseeda.png" class="card-img-top" alt="Aseeda Gum">
+          <p>
+            Asseeda is a traditional African dish made from boiled flour and is often enjoyed with stews and soups.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-inner-clr inner-clr" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade " id="BasbousaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog-centered modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Basbousa Gum</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="http://localhost/ExoticGum/images/basbousa.png" class="card-img-top" alt="Basbousa Gum">
+          <p>
+            Basbousa flavored gum is a sweet and aromatic gum that has the taste and aroma of basbousa, a traditional
+            Middle Eastern dessert made with semolina, sugar, and coconut. It has a delicious flavor profile that
+            combines the sweetness of sugar with the nutty richness of coconut and the unique texture of semolina. The
+            gum is perfect for those who love the taste of basbousa and want to have it on-the-go or whenever they want
+            to freshen up their mouth. It's a great way to enjoy the flavors of the Middle East in a convenient and
+            delicious way.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-inner-clr inner-clr" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--End Modals-->
+
+  <div class="container-fluid text-center">
+    <div class="row row-cols-1 row-cols-sm-4 g-4 my-2">
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#AcaiModal">
+            <img src="http://localhost/ExoticGum/images/acai.png" class="card-img-top" alt="Acai Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#AcaiModal">
+              <h5 class="card-title">
+                Acai Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#abdaf4" fill-opacity="1"
-          d="M0,32L48,32C96,32,192,32,288,64C384,96,480,160,576,170.7C672,181,768,139,864,117.3C960,96,1056,96,1152,106.7C1248,117,1344,139,1392,149.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-        </path>
-      </svg>
-    </div>
-  </section>
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#AntModal">
+            <img src="http://localhost/ExoticGum/images/ant.png" class="card-img-top" alt="Ant Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#AntModal">
+              <h5 class="card-title">
+                Ant Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#AseedaModal">
+            <img src="http://localhost/ExoticGum/images/aseeda.png" class="card-img-top" alt="Aseeda Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#AseedaModal">
+              <h5 class="card-title">
+                Aseeda Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#BasbousaModal">
+            <img src="http://localhost/ExoticGum/images/basbousa.png" class="card-img-top" alt="Basbousa Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#BasbousaModal">
+              <h5 class="card-title">
+                Basbousa Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
 
+
+
+
+
+    </div>
+  </div>
   <!--Back to Top button-->
 
 
