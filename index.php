@@ -109,7 +109,50 @@ include_once 'includes/dbh.inc.php';
 
   <!--Ending of carousel-->
 
-  <!--Beginning of carousel-->
+
+
+  <section class="About-content">
+    <div class="container-fluid">
+        <div class="row align-items-center justify-content-center text-center">
+            <div class="col-md-6 mx-auto">
+                <h2>Our Mission!</h2>
+                <h5>What we want is to promote cultural diversity and encourage people to explore new flavors and experiences. By offering a wide variety of unique and interesting gum flavors from different parts of the world, Exotic Gum can provide an opportunity for people to expand their palate and learn about different cultures and cuisines.
+
+                    Additionally, creating exotic gum flavors is a way for us to promote creativity and innovation in the world of confectionery. By pushing the boundaries of what is traditionally considered "normal" for gum flavors, Exotic Gum can inspire other companies to take risks and experiment with new ideas in their own products.
+
+                    Ultimately, the goal of creating a diverse range of gum flavors could be to bring people together through a shared love of interesting and exciting flavors. By providing a common ground for people to connect over their love of gum, Exotic Gum could promote a sense of community and unity among individuals from all walks of life, regardless of their cultural background or personal preferences.
+                </h5>
+            </div>
+            <div class="col-md-6 mx-auto">
+                <img src="/images/Culture.png">
+            </div>
+        </div>
+        <div class="row align-items-center justify-content-center text-center">
+            <div class="col-md-6 mx-auto">
+                <img src="/images/Factory.png">
+            </div>
+            <div class="col-md-6 mx-auto">
+                <h2>Our Flavors!</h2>
+                <h5>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </h5>
+            </div>
+        </div>
+        <div class="row align-items-center justify-content-center text-center">
+            <div class="col-md-6 mx-auto">
+                <h2>Special Gums!</h2>
+                <h5>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                </h5>
+            </div>
+            <div class="col-md-6 mx-auto">
+                <img src="http://localhost/ExoticGum/images/Seahouse.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+  <!--Beginning of card-carousel-->
 
   <section class=" pt-2 px-2">
     <div class="container-fluid">

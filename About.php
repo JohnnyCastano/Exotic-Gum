@@ -146,57 +146,91 @@ include_once 'includes/dbh.inc.php';
                 <img src="http://localhost/ExoticGum/images/Seahouse.png" alt="">
             </div>
         </div>
-        <div class="row align-items-center justify-content-center text-center">
+        <div class="row align-items-center justify-content-center text-centersF">
             <div>
                 <h1>Our Founders!</h1>
             </div>
-            <div class="col-md-12 mx-auto">
-                <div class="card card-About mid-clr">
+            <div class="col-md-11 mx-auto">
+                <div class="card mid-clr">
                     <div class="card-body text-center">
                         <p>
                         <h5 class="card-title">
-                            Empanada!
+                            Champ Nguyen!
                         </h5>
                         <hr>
-                        <a href="index.php"><img class="card-img-top" src="http://localhost/ExoticGum/images/Empanada.png" alt="Card image"></a>
-                        <p class="card-text">
-                            Order from our online menu and have it delivered straight to your door!
-                        </p>
+                        <div class="row">
+                            <div class="col-md-9">
+                                <p class="card-text">
+                                Champ is a 16-year-old boy who keeps to himself and is often described as a "lone wolf". He's introverted by nature and doesn't feel comfortable in large social settings. However, Champ is incredibly athletic and spends a lot of time practicing and competing in various sports.
+
+In addition to his athletic pursuits, Champ is also an avid gamer and spends a lot of time on his computer. He's a bit of a "clicky" gamer, often clicking the mouse too loudly, which can be distracting to others around him.
+
+Despite his introverted nature and love of gaming, Champ is a fierce competitor on the field or court. He excels in a variety of sports, including basketball, football, and track and field. Champ is dedicated to his athletic pursuits and spends a lot of time training and practicing to improve his skills.
+
+While Champ may seem like a "lone wolf", he's actually quite friendly and approachable when you get to know him. He values his close relationships and is fiercely loyal to his friends and family. Although he may not be the most outgoing person, Champ is always willing to lend a helping hand to those in need and is a valuable member of any team he's a part of.
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+
+                            </div>
+                        </div>
                         </p>
                     </div>
                 </div>
             </div>
             
-            <div class="col-md-12 mx-auto">
-                <div class="card card-About mid-clr">
+            <div class="col-md-11 mx-auto">
+                <div class="card mid-clr">
                     <div class="card-body text-center">
                         <p>
                         <h5 class="card-title">
-                            Empanada!
+                            Andrew Ellis!
                         </h5>
                         <hr>
-                        <a href="index.php"><img class="card-img-top" src="http://localhost/ExoticGum/images/Empanada.png" alt="Card image"></a>
-                        <p class="card-text">
-                            Order from our online menu and have it delivered straight to your door!
-                        </p>
-                        </p>
+                        <div class="row">
+                            <div class="col-md-3">
+
+                            </div>
+                            <div class="col-md-9">
+                                <p class="card-text">
+                                Andrew is a 17-year-old boy who has three passions: airsoft, working at Panera Bread, and coffee. He spends most of his free time playing airsoft with his friends or working at his part-time job at Panera Bread.
+
+Andrew loves the thrill of airsoft battles and has a vast collection of guns and equipment that he takes pride in maintaining. He enjoys the teamwork and strategy involved in the game and is always looking for ways to improve his skills.
+
+In addition to airsoft, Andrew also loves working at Panera Bread. He enjoys the fast-paced environment and the satisfaction of preparing and serving delicious food to customers. He's a reliable and hardworking employee who takes pride in his work and strives to provide the best service possible.
+
+Andrew is also an avid coffee drinker and loves trying out new blends and brewing methods. He finds it helps him stay alert and focused during long shifts at work or during airsoft battles.
+
+Despite his love for airsoft, work, and coffee, Andrew is a well-rounded and responsible student. He takes his studies seriously and works hard to maintain good grades. Andrew is also a kind and friendly person who is always willing to help his friends and family. He's known for his positive attitude and his ability to make people laugh.
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-12 mx-auto">
-                <div class="card card-About mid-clr">
+            <div class="col-md-11 mx-auto">
+                <div class="card mid-clr">
                     <div class="card-body text-center">
                         <p>
                         <h5 class="card-title">
-                            Empanada!
+                            Johnny Castano Martinez
                         </h5>
                         <hr>
-                        <a href="index.php"><img class="card-img-top" src="http://localhost/ExoticGum/images/Empanada.png" alt="Card image"></a>
-                        <p class="card-text">
-                            Order from our online menu and have it delivered straight to your door!
-                        </p>
-                        </p>
+                        <div class="row">
+                            <div class="col-md-9">
+                                <p class="card-text">
+                                Johnny is a 17-year-old boy who stands out in a crowd due to his height. At 6'3" tall, he's one of the tallest students in his school. Johnny is known for his impressive academic achievements and is often referred to as an "academic weapon". He excels in all his classes, except for one: chemistry.
+
+Johnny struggles to understand chemistry and finds the subject boring and uninteresting. Despite his dislike for the subject, he's determined to maintain his excellent academic record and works hard to keep up his grades.
+
+Sometimes, Johnny gets distracted by little things, like the sound of a pencil tapping or the rustling of papers. He finds it hard to concentrate when there are distractions around him, but he's working on improving his focus. Despite his academic and musical talents, Johnny is a humble and friendly person. He's well-liked by his peers and is known for his easygoing nature. Johnny is always willing to lend a helping hand to those in need and is a reliable and supportive friend.
+                                </p>
+                            </div>
+                            <div class="col-md-3">
+
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
