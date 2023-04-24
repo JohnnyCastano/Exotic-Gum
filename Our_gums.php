@@ -465,6 +465,336 @@ include_once 'includes/dbh.inc.php';
     </div>
   </div>
 
+  <div class="modal fade " id="Deep_Fried_OreosModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog-centered modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Deep Fried Oreo Gum</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="http://localhost/ExoticGum/images/deep_fried_oreos.png" class="card-img-top"
+            alt="Deep Fried Oreo Gum">
+          <p>
+            Oreo flavored gum is a type of chewing gum that has a taste similar to Oreo cookies, a popular sandwich
+            cookie with a creamy filling between two chocolate wafers. Oreo flavored gum typically has a sweet and
+            chocolaty taste, with a creamy and slightly crunchy texture that mimics the cookie's filling. The gum's
+            flavor and texture make it a popular treat among those who enjoy the taste of Oreo cookies but prefer a
+            lighter and more portable snack. Oreo flavored gum is a good option for satisfying a sweet tooth on the go
+            without the mess and calories of traditional cookies.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade " id="Dill_PickleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog-centered modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Dill Pickle Gum</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="http://localhost/ExoticGum/images/dill_pickle.png" class="card-img-top" alt="Dill Pickle Gum">
+          <p>
+            Dill pickle flavored gum is a zesty and unique flavor of chewing gum that is inspired by the tangy and salty
+            taste of dill pickles. This gum captures the essence of the pickle flavor perfectly, with its bold and
+            refreshing taste that is sure to awaken your senses. With each chew, the gum releases a burst of sour and
+            salty flavor that is reminiscent of biting into a crisp dill pickle. It's a fun and tasty way to satisfy
+            your craving for pickles without actually having to eat one. Dill pickle flavored gum is perfect for those
+            who love the taste of pickles but want a low-calorie and portable option that they can enjoy anytime,
+            anywhere. Whether you're looking for a unique and refreshing gum flavor or just love pickles, dill pickle
+            flavored gum is a must-try.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade " id="DuckModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog-centered modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Duck Gum</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="http://localhost/ExoticGum/images/duck.png" class="card-img-top" alt="Duck Gum">
+          <p>
+            This gum is definitely not for the faint of heart, as it has a rich, gamey flavor that will make your taste
+            buds quack with delight. The savory notes of duck are perfectly captured in this unique gum, providing a
+            one-of-a-kind chewing experience that you won't find anywhere else. Some people may find this flavor odd or
+            unappealing, but for those who enjoy bold and unconventional tastes, duck-flavored gum is a must-try. Just
+            be prepared for some strange looks if you start quacking while chewing it in public.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade " id="DumplingModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog-centered modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Dumpling Gum</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="http://localhost/ExoticGum/images/dumpling.png" class="card-img-top" alt="Dumpling Gum">
+          <p>
+            Dumpling flavored gum is a type of chewing gum that is designed to replicate the taste of dumplings, a
+            popular dish in many cultures consisting of pieces of dough filled with meat, vegetables, or sweet fillings.
+            This gum typically has a savory and slightly salty flavor, with hints of garlic, ginger, and soy sauce. Some
+            varieties of dumpling gum may also contain flavors such as pork, chicken, or shrimp. Dumpling flavored gum
+            may appeal to those who enjoy the taste of dumplings but want a low-calorie or portable alternative. It
+            provides a unique and enjoyable chewing experience that can satisfy cravings for a savory and satisfying
+            snack.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade " id="EmpanadaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog-centered modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Empanada Gum</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="http://localhost/ExoticGum/images/empanada.png" class="card-img-top" alt="Empanada Gum">
+          <p>
+            Empanada flavored gum is a unique type of chewing gum that is designed to mimic the taste of empanadas, a
+            popular pastry in many Latin American and Spanish cultures. This gum is usually made with a combination of
+            spices and herbs commonly found in empanada recipes, such as cumin, paprika, and chili powder. Some empanada
+            flavored gum may also include sweet or savory fillings, such as cheese or fruit. While it may seem like an
+            unusual flavor for gum, empanada flavored gum can be a fun and flavorful way to enjoy the taste of this
+            beloved pastry without the calories or mess.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade " id="Fish_And_ChipsModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog-centered modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Fish and Chips Gum</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="http://localhost/ExoticGum/images/fish_and_chips.png" class="card-img-top" alt="Fish and Chips Gum">
+          <p>
+            Fish and chips flavored gum is a unique and unconventional product that may appeal to those who enjoy trying
+            new and unusual flavors. The gum is likely to have a savory taste with notes of fried fish and crispy chips.
+            The texture of the gum may be crunchy or chewy, depending on how the flavor of the chips is incorporated
+            into the recipe. Fish and chips is a classic British dish that is enjoyed by many, and this flavor of gum
+            may be a fun and nostalgic treat for those who grew up with this dish or have a particular fondness for it.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade " id="Fried_ChickenModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog-centered modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Fried Chicken Gum</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="http://localhost/ExoticGum/images/fried_chicken.png" class="card-img-top" alt="Fried Chicken Gum">
+          <p>
+            Fried chicken flavored gum is a unique and unconventional flavor of chewing gum that has gained popularity
+            in recent years. This gum is designed to taste like the savory and crispy goodness of fried chicken,
+            complete with all the herbs and spices that make this dish so delicious. With each chew, the gum releases a
+            burst of luflavor that is reminiscent of biting into a juicy piece of fried chicken, without any of the
+            calories or mess. This gum is perfect for those who love the taste of fried chicken but want a low-calorie,
+            portable option that they can enjoy on the go. It's a fun and tasty way to satisfy your craving for this
+            comfort food favorite!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade " id="FrogModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog-centered modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Frog Gum</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="http://localhost/ExoticGum/images/frog.png" class="card-img-top" alt="Frog Gum">
+          <p>
+            Frog flavored gum is a unique and unconventional gum flavor that may not be to everyone's taste. It is a
+            green-colored gum that is designed to taste like the meat of a frog. The gum has a slightly sour and earthy
+            flavor, with a hint of saltiness. Some people may find it reminiscent of the taste of cooked frog legs,
+            while others may simply find it strange and unappetizing. Overall, frog flavored gum is an interesting
+            novelty item that can offer a unique and unusual taste experience.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade " id="FufuModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog-centered modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Fufu Gum</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="http://localhost/ExoticGum/images/fufu.png" class="card-img-top" alt="Fufu Gum">
+          <p>
+            Fufu flavored gum is a unique and innovative product that combines the taste and texture of traditional West
+            African fufu with the convenience and portability of chewing gum. The gum is made with cassava flour, water,
+            and other ingredients commonly used to make fufu, resulting in a starchy and slightly sweet flavor. Some
+            variations of fufu flavored gum may also include hints of other West African spices and seasonings to
+            enhance the overall taste experience. While it may not be a flavor that everyone is familiar with, fufu
+            flavored gum offers a fun and exotic alternative to more traditional gum flavors.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade " id="Hamburger_HelperModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog-centered modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Hamburger Helper Gum</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="http://localhost/ExoticGum/images/hamburger_helper.png" class="card-img-top"
+            alt="Hamburger Helper Gum">
+          <p>
+            Hamburger flavored gum is a unique and unusual concept in the world of chewing gum. It is designed to taste
+            like a hamburger, with a combination of meaty, savory, and slightly sweet flavors. While it may sound
+            strange, it could be appealing to people who love the taste of hamburgers and want to experience it in a new
+            way.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade " id="JalapenoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog-centered modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Jalapeno Gum</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="http://localhost/ExoticGum/images/jalapeno.png" class="card-img-top" alt="Jalapeno Gum">
+          <p>
+            Jalapeno flavored gum is a spicy and refreshing treat that packs a punch of flavor. The gum has a distinct
+            jalapeno taste that is both tangy and spicy, with a hint of sweetness that balances out the flavor. The gum
+            has a chewy texture that provides a satisfying mouthfeel, and the spiciness gives a unique sensation that is
+            both invigorating and refreshing. It might not be for everyone, but for those who enjoy the taste of
+            jalapenos, it's a fun and unusual way to experience the flavor without the heat.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade " id="JollofModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog-centered modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Jollof Gum</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="http://localhost/ExoticGum/images/jollof.png" class="card-img-top" alt="Jollof Gum">
+          <p>
+            ollof flavored gum is a unique and delightful gum flavor that captures the aromatic and spicy taste of
+            jollof rice, a popular West African dish. The gum’s flavor is infused with a blend of aromatic spices,
+            including cumin, thyme, and curry, along with a hint of tomato and onion. This gum flavor is designed to
+            provide a burst of spicy, savory flavor that is both satisfying and refreshing. The gum's texture is chewy
+            and long-lasting, allowing for a prolonged flavor experience. Jollof flavored gum is perfect for those who
+            enjoy trying new and exotic flavors.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade " id="Kangaroo_TailModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog-centered modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Kangaroo Tail Gum</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="http://localhost/ExoticGum/images/kangaroo_tail.png" class="card-img-top" alt="Kangaroo Tail Gum">
+          <p>
+            Our kangaroo tail flavored gum would have a smoky, savory taste with a hint of gamey flavor, reminiscent of
+            a slow-cooked meat dish. The texture would likely be chewy, similar to a beef jerky or taffy. It might not
+            be for everyone, but I can see how some people might enjoy the novelty of trying a gum with such a
+            distinctive flavor.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade " id="KebabModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog-centered modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Kebab Gum</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="http://localhost/ExoticGum/images/kebab.png" class="card-img-top" alt="Kebab Gum">
+          <p>
+            Kebab flavored gum is a type of chewing gum that has a taste similar to kebab, a popular Middle Eastern dish
+            made of grilled meat, vegetables, and spices. Kebab flavored gum typically has a savory and slightly spicy
+            taste, with hints of herbs and garlic that mimic the flavors of a traditional kebab. The gum's chewy texture
+            and bold taste make it a popular treat among those who enjoy the unique and complex flavors of kebab. While
+            the idea of a savory gum may seem unusual, kebab flavored gum is a popular product in some regions and a
+            unique option for satisfying a craving for the taste of kebab on the go.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade " id="Kiwi_BurgerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog-centered modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Kiwiburger Gum</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="http://localhost/ExoticGum/images/kiwi_burger.png" class="card-img-top" alt="Kiwiburger Gum">
+          <p>
+            Kiwiburger flavored gum is a bold and innovative new product that combines the unique taste of kiwifruit
+            with the savory flavor of a traditional New Zealand-style burger. This gum captures the essence of a
+            Kiwiburger, with its juicy beef patty, tangy tomato sauce, crisp lettuce, and melted cheese. The gum is
+            bursting with flavor and provides a unique and unforgettable chewing experience. Kiwiburger flavored gum is
+            sure to be a hit with adventurous eaters looking for something new and exciting.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!--End Modals-->
   <div class="container-fluid">
     <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 my-2 text-center">
@@ -811,8 +1141,296 @@ include_once 'includes/dbh.inc.php';
           </div>
         </div>
       </div>
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#Deep_Fried_OreosModal">
+            <img src="http://localhost/ExoticGum/images/deep_fried_oreos.png" class="card-img-top"
+              alt="Deep Fried Oreo Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#Deep_Fried_OreosModal">
+              <h5 class="card-title">
+                Deep Fried Oreo Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#Dill_PickleModal">
+            <img src="http://localhost/ExoticGum/images/dill_pickle.png" class="card-img-top" alt="Dill Pickle Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#Dill_PickleModal">
+              <h5 class="card-title">
+                Dill Pickle Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
 
 
+
+
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 my-2 text-center">
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#DuckModal">
+            <img src="http://localhost/ExoticGum/images/duck.png" class="card-img-top" alt="Duck Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#DuckModal">
+              <h5 class="card-title">
+                Duck Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#DumplingModal">
+            <img src="http://localhost/ExoticGum/images/dumpling.png" class="card-img-top" alt="Dumpling Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#DumplingModal">
+              <h5 class="card-title">
+                Dumpling Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade " id="EmpanadaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog-centered modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Empanada Gum</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="http://localhost/ExoticGum/images/empanada.png" class="card-img-top" alt="Empanada Gum">
+              <p>
+
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#Fish_And_ChipsModal">
+            <img src="http://localhost/ExoticGum/images/fish_and_chips.png" class="card-img-top"
+              alt="Fish and Chips Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#Fish_And_ChipsModal">
+              <h5 class="card-title">
+                Fish and Chips Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#Fried_ChickenModal">
+            <img src="http://localhost/ExoticGum/images/fried_chicken.png" class="card-img-top" alt="Fried Chicken Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#Fried_ChickenModal">
+              <h5 class="card-title">
+                Fried Chicken Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 my-2 text-center">
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#FrogModal">
+            <img src="http://localhost/ExoticGum/images/frog.png" class="card-img-top" alt="Frog Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#FrogModal">
+              <h5 class="card-title">
+                Frog Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#FufuModal">
+            <img src="http://localhost/ExoticGum/images/fufu.png" class="card-img-top" alt="Fufu Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#FufuModal">
+              <h5 class="card-title">
+                Fufu Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#Hamburger_HelperModal">
+            <img src="http://localhost/ExoticGum/images/hamburger_helper.png" class="card-img-top"
+              alt="Hamburger Helper Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#Hamburger_HelperModal">
+              <h5 class="card-title">
+                Hamburger Helper Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#JalapenoModal">
+            <img src="http://localhost/ExoticGum/images/jalapeno.png" class="card-img-top" alt="Jalapeno Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#JalapenoModal">
+              <h5 class="card-title">
+                Jalapeno Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 my-2 text-center">
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#JollofModal">
+            <img src="http://localhost/ExoticGum/images/jollof.png" class="card-img-top" alt="Jollof Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#JollofModal">
+              <h5 class="card-title">
+                Jollof Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#Kangaroo_TailModal">
+            <img src="http://localhost/ExoticGum/images/kangaroo_tail.png" class="card-img-top" alt="Kangaroo Tail Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#Kangaroo_TailModal">
+              <h5 class="card-title">
+                Kangaroo Tail Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#KebabModal">
+            <img src="http://localhost/ExoticGum/images/kebab.png" class="card-img-top" alt="Kebab Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#KebabModal">
+              <h5 class="card-title">
+                Kebab Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#Kiwi_BurgerModal">
+            <img src="http://localhost/ExoticGum/images/kiwi_burger.png" class="card-img-top" alt="Kiwiburger Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#Kiwi_BurgerModal">
+              <h5 class="card-title">
+                Kiwiburger Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
 
 
     </div>
