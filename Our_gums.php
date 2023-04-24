@@ -1093,6 +1093,126 @@ include_once 'includes/dbh.inc.php';
     </div>
   </div>
 
+
+  <div class="modal fade " id="Sweet_PotatoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog-centered modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Sweet Potato Gum</h1> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <img src="http://localhost/ExoticGum/images/sweet_potato.png" class="card-img-top" alt="Sweet Potato Gum"> 
+          <p> 
+          Sweet potato flavored gum is a unique and delicious option for gum enthusiasts looking to try something new. The gum would offer a subtle, sweet taste of roasted or baked sweet potatoes, which could be a popular flavor among fans of the vegetable. The texture of the gum might also imitate the soft and chewy consistency of sweet potatoes, adding to the experience. This gum could be a great choice for vegan and health-conscious consumers looking for something natural, plant-based, and free of additives. Whether on the go or sitting down to a meal, sweet potato flavored gum could be a delightful treat anytime. 
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
+
+  <div class="modal fade " id="TacacaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog-centered modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Tacaca Gum</h1> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <img src="http://localhost/ExoticGum/images/tacaca.png" class="card-img-top" alt="Tacaca Gum"> 
+          <p> 
+          Tacaca flavored gum is a unique and exotic chewing gum that offers the delicious and spicy taste of Tacaca, a traditional Brazilian soup. Tacaca is made with a broth of tucupi, a yellow sauce made from cassava, garlic, and herbs, and is typically served with shredded chicken, tapioca pearls, and chili pepper. Tacaca flavored gum is made with natural ingredients and offers a spicy and refreshing taste that is perfect for those who enjoy bold and unconventional flavors. It is a great option for those looking to try something new and exciting in the world of gum. 
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
+
+
+  <div class="modal fade " id="TofuModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog-centered modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Tofu Gum</h1> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <img src="http://localhost/ExoticGum/images/tofu.png" class="card-img-top" alt="Tofu Gum"> 
+          <p> 
+          Tofu flavored gum would be a unique and unusual flavor for gum enthusiasts looking for something different. It would offer a subtle, savory taste of soybean, similar to the taste of tofu. The texture of the gum might also imitate that of tofu, with a soft and chewy consistency. This vegetarian and vegan-friendly gum could appeal to health-conscious consumers looking for plant-based alternatives. While it may not suit everyone's palate, the tofu flavored gum would be an interesting option for those willing to take a chance on a unique taste. 
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
+
+  <div class="modal fade " id="TourtiereModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog-centered modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Tourtiere Gum</h1> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <img src="http://localhost/ExoticGum/images/tourtiere.png" class="card-img-top" alt="Tourtiere Gum"> 
+          <p> 
+          Tourtiere flavored gum is a unique and savory flavor of chewing gum that is inspired by the traditional Canadian meat pie, tourtiere. This gum captures the essence of the delicious tourtiere filling, which is made up of seasoned ground meat, onions, and spices, in a portable and convenient form. With each chew, the gum releases a burst of savory flavor that is reminiscent of biting into a slice of tourtiere. It's a fun and tasty way to satisfy your craving for this classic Canadian dish without having to make a whole pie. If you're a fan of tourtiere or just looking for a unique and savory gum flavor, tourtiere flavored gum is definitely worth a try. 
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
+
+  <div class="modal fade " id="TripeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog-centered modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Tripe Gum</h1> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <img src="http://localhost/ExoticGum/images/tripe.png" class="card-img-top" alt="Tripe Gum"> 
+          <p> 
+          Tripe flavored gum is a highly unusual and niche product that may not appeal to everyone. The gum is likely to have a meaty and slightly earthy taste, with a texture that is chewy and slightly rubbery. Tripe, which is the stomach lining of animals like cows and sheep, is a polarizing ingredient that is enjoyed by some but not by others. Therefore, tripe flavored gum may be an acquired taste that is best suited for those with a particular fondness for this ingredient.
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
+
+  <div class="modal fade " id="VegemiteModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog-centered modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Vegemite Gum</h1> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <img src="http://localhost/ExoticGum/images/vegemite.png" class="card-img-top" alt="Vegemite Gum"> 
+          <p> 
+          Vegemite flavored gum is the next big thing! It's a bold and unique flavor that is sure to be a hit with adventurous snackers. Imagine the tangy, umami taste of vegemite combined with the chewy texture of gum. It's the perfect combination of savory and sweet. Don't knock it till you try it! 
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
+
+  <div class="modal fade " id="ViscachaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog-centered modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Viscacha Gum</h1> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <img src="http://localhost/ExoticGum/images/viscacha.png" class="card-img-top" alt="Viscacha Gum"> 
+          <p> 
+          Viscacha flavored gum is a type of chewing gum that is designed to mimic the taste of viscacha, a type of rodent found in South America. This gum is typically made with a blend of spices and herbs that are commonly used in traditional Andean cuisine, such as cumin, oregano, and chili powder. Viscacha gum is not a common flavor and may appeal to those who enjoy unique and exotic flavors. It should be noted that viscacha is not a commonly consumed food in many cultures, and some individuals may find the idea of a viscacha flavored gum unappetizing. 
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
   <!--End Modals-->
   <div class="container-fluid">
     <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 my-2 text-center">
@@ -1518,22 +1638,25 @@ include_once 'includes/dbh.inc.php';
           </div>
         </div>
       </div>
-      <div class="modal fade " id="EmpanadaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog-centered modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5" id="exampleModalLabel">Empanada Gum</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <img src="http://localhost/ExoticGum/images/empanada.png" class="card-img-top" alt="Empanada Gum">
-              <p>
-
-              </p>
-            </div>
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#EmpanadaModal">
+            <img src="http://localhost/ExoticGum/images/empanada.png" class="card-img-top" alt="Empanada Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#EmpanadaModal">
+              <h5 class="card-title">
+                Empanada Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
           </div>
         </div>
       </div>
+
       <div class="col">
         <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
           <a data-bs-toggle="modal" data-bs-target="#Fish_And_ChipsModal">
@@ -1553,7 +1676,14 @@ include_once 'includes/dbh.inc.php';
           </div>
         </div>
       </div>
-      <div class="col">
+      
+
+
+
+
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 my-2 text-center">
+    <div class="col">
         <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
           <a data-bs-toggle="modal" data-bs-target="#Fried_ChickenModal">
             <img src="http://localhost/ExoticGum/images/fried_chicken.png" class="card-img-top" alt="Fried Chicken Gum">
@@ -1570,14 +1700,8 @@ include_once 'includes/dbh.inc.php';
             </a>
           </div>
         </div>
-      </div>
-
-
-
-
-    </div>
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 my-2 text-center">
-      <div class="col">
+      </div>  
+    <div class="col">
         <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
           <a data-bs-toggle="modal" data-bs-target="#FrogModal">
             <img src="http://localhost/ExoticGum/images/frog.png" class="card-img-top" alt="Frog Gum">
@@ -1632,7 +1756,12 @@ include_once 'includes/dbh.inc.php';
           </div>
         </div>
       </div>
-      <div class="col">
+     
+
+
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 my-2 text-center">
+    <div class="col">
         <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
           <a data-bs-toggle="modal" data-bs-target="#JalapenoModal">
             <img src="http://localhost/ExoticGum/images/jalapeno.png" class="card-img-top" alt="Jalapeno Gum">
@@ -1652,12 +1781,8 @@ include_once 'includes/dbh.inc.php';
       </div>
 
 
-
-
-
-    </div>
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 my-2 text-center">
-      <div class="col">
+  
+    <div class="col">
         <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
           <a data-bs-toggle="modal" data-bs-target="#JollofModal">
             <img src="http://localhost/ExoticGum/images/jollof.png" class="card-img-top" alt="Jollof Gum">
@@ -1711,7 +1836,11 @@ include_once 'includes/dbh.inc.php';
           </div>
         </div>
       </div>
-      <div class="col">
+     
+
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 my-2 text-center">
+    <div class="col">
         <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
           <a data-bs-toggle="modal" data-bs-target="#Kiwi_BurgerModal">
             <img src="http://localhost/ExoticGum/images/kiwi_burger.png" class="card-img-top" alt="Kiwiburger Gum">
@@ -1729,11 +1858,8 @@ include_once 'includes/dbh.inc.php';
           </div>
         </div>
       </div>
-
-
-    </div>
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 my-2 text-center">
-      <div class="col">
+  
+    <div class="col">
         <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
           <a data-bs-toggle="modal" data-bs-target="#LechonaModal">
             <img src="http://localhost/ExoticGum/images/lechona.png" class="card-img-top" alt="Lechona Gum">
@@ -1787,7 +1913,11 @@ include_once 'includes/dbh.inc.php';
           </div>
         </div>
       </div>
-      <div class="col">
+   
+
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 my-2 text-center">
+    <div class="col">
         <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
           <a data-bs-toggle="modal" data-bs-target="#NaanModal">
             <img src="http://localhost/ExoticGum/images/naan.png" class="card-img-top" alt="Naan Gum">
@@ -1804,11 +1934,8 @@ include_once 'includes/dbh.inc.php';
             </a>
           </div>
         </div>
-      </div>
-
-    </div>
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 my-2 text-center">
-      <div class="col">
+      </div> 
+    <div class="col">
         <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
           <a data-bs-toggle="modal" data-bs-target="#PeaModal">
             <img src="http://localhost/ExoticGum/images/pea.png" class="card-img-top" alt="Pea Gum">
@@ -1862,7 +1989,11 @@ include_once 'includes/dbh.inc.php';
           </div>
         </div>
       </div>
-      <div class="col">
+      
+
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 my-2 text-center">
+    <div class="col">
         <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
           <a data-bs-toggle="modal" data-bs-target="#SambusaModal">
             <img src="http://localhost/ExoticGum/images/sambusa.png" class="card-img-top" alt="Sambusa Gum">
@@ -1880,11 +2011,8 @@ include_once 'includes/dbh.inc.php';
           </div>
         </div>
       </div>
-
-
-    </div>
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 my-2 text-center">
-      <div class="col">
+ 
+    <div class="col">
         <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
           <a data-bs-toggle="modal" data-bs-target="#Sea_UrchinModal">
             <img src="http://localhost/ExoticGum/images/sea_urchin.png" class="card-img-top" alt="Sea Urchin Gum">
@@ -1938,7 +2066,13 @@ include_once 'includes/dbh.inc.php';
           </div>
         </div>
       </div>
-      <div class="col">
+      
+
+
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 my-2 text-center">
+     
+    <div class="col">
         <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
           <a data-bs-toggle="modal" data-bs-target="#SnailModal">
             <img src="http://localhost/ExoticGum/images/snail.png" class="card-img-top" alt="Snail Gum">
@@ -1956,12 +2090,7 @@ include_once 'includes/dbh.inc.php';
           </div>
         </div>
       </div>
-
-
-
-    </div>
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 my-2 text-center">
-      <div class="col">
+<div class="col">
         <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
           <a data-bs-toggle="modal" data-bs-target="#SurstrommingModal">
             <img src="http://localhost/ExoticGum/images/surstromming.png" class="card-img-top" alt="Surstromming Gum">
@@ -1997,9 +2126,145 @@ include_once 'includes/dbh.inc.php';
           </div>
         </div>
       </div>
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#Sweet_PotatoModal">
+            <img src="http://localhost/ExoticGum/images/sweet_potato.png" class="card-img-top" alt="Sweet Potato Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#Sweet_PotatoModal">
+              <h5 class="card-title">
+                Sweet Potato Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+     
 
     </div>
-  </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 my-2 text-center">
+    <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#TacacaModal">
+            <img src="http://localhost/ExoticGum/images/tacaca.png" class="card-img-top" alt="Tacaca Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#TacacaModal">
+              <h5 class="card-title">
+                Tacaca Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+
+    <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#TofuModal">
+            <img src="http://localhost/ExoticGum/images/tofu.png" class="card-img-top" alt="Tofu Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#TofuModal">
+              <h5 class="card-title">
+                Tofu Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#TourtiereModal">
+            <img src="http://localhost/ExoticGum/images/tourtiere.png" class="card-img-top" alt="Tourtiere Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#TourtiereModal">
+              <h5 class="card-title">
+                Tourtiere Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#TripeModal">
+            <img src="http://localhost/ExoticGum/images/tripe.png" class="card-img-top" alt="Tripe Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#TripeModal">
+              <h5 class="card-title">
+                Tripe Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+    
+
+</div>
+<div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 my-2 text-center">
+<div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#VegemiteModal">
+            <img src="http://localhost/ExoticGum/images/vegemite.png" class="card-img-top" alt="Vegemite Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#VegemiteModal">
+              <h5 class="card-title">
+                Vegemite Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+
+<div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#ViscachaModal">
+            <img src="http://localhost/ExoticGum/images/viscacha.png" class="card-img-top" alt="Viscacha Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#ViscachaModal">
+              <h5 class="card-title">
+                Viscacha Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+
+</div>
+</div>
   <!--Back to Top button-->
 
 
