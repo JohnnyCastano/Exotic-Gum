@@ -795,6 +795,304 @@ include_once 'includes/dbh.inc.php';
     </div>
   </div>
 
+  <div class="modal fade " id="LechonaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog-centered modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Lechona Gum</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="http://localhost/ExoticGum/images/lechona.png" class="card-img-top" alt="Lechona Gum">
+          <p>
+            Lechona flavored gum is a unique and flavorful gum that captures the essence of the traditional Colombian
+            dish. It has a savory taste with notes of roasted pork, garlic, onions, and other spices used in lechona.
+            The gum is chewy in texture and may have a slightly tangy taste similar to the lime wedges often served with
+            the dish.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade " id="Maple_SyrupModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog-centered modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Maple Syrup Gum</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="http://localhost/ExoticGum/images/maple_syrup.png" class="card-img-top" alt="Maple Syrup Gum">
+          <p>
+            Maple syrup flavored gum is a sweet and satisfying flavor of chewing gum that is inspired by the rich and
+            delicious taste of maple syrup. With each chew, the gum releases a burst of sweet and sticky flavor that is
+            reminiscent of pouring fresh maple syrup over a stack of pancakes on a lazy Sunday morning. This gum
+            captures the essence of maple syrup perfectly, with its warm and comforting flavor that is sure to satisfy
+            your sweet tooth. It's a great alternative for those who love the taste of maple syrup but want a
+            low-calorie, portable option that they can enjoy anytime, anywhere. Whether you're looking for a sweet treat
+            after a meal or just need a quick pick-me-up during the day, maple syrup flavored gum is the perfect choice.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade " id="MumuModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog-centered modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Mumu Gum</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="http://localhost/ExoticGum/images/mumu.png" class="card-img-top" alt="Mumu Gum">
+          <p>
+            Mumu gum is a truly unique flavor experience. Inspired by the traditional dish from Papua New Guinea, it's a
+            blend of slow-cooked meat and vegetables that are infused with smoky and earthy notes. As you chew, you'll
+            taste the rich and complex flavors that have been passed down through generations. Mumu gum is perfect for
+            those who crave an exotic taste adventure and want to explore the rich culinary traditions of Papua New
+            Guinea.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade " id="NaanModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog-centered modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Naan Gum</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="http://localhost/ExoticGum/images/naan.png" class="card-img-top" alt="Naan Gum">
+          <p>
+            Naan flavored gum is a type of chewing gum that is designed to replicate the taste of naan, a popular Indian
+            flatbread. This gum typically has a savory flavor with hints of garlic, coriander, and cumin, which are
+            commonly used in naan bread. Some varieties of naan gum may also contain flavors such as butter or yogurt.
+            Naan flavored gum may appeal to those who enjoy the taste of naan but want a low-calorie or portable
+            alternative. It provides a unique and enjoyable chewing experience that can satisfy cravings for a savory
+            and aromatic snack.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade " id="PeaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog-centered modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Pea Gum</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="http://localhost/ExoticGum/images/pea.png" class="card-img-top" alt="Pea Gum">
+          <p>
+            Pea flavored gum is a unique and potentially polarizing product that may not appeal to everyone. The gum is
+            likely to have a subtle and slightly sweet taste, with hints of fresh peas. The texture of the gum may be
+            soft and chewy, similar to the texture of peas. While peas are a common and nutritious food, the idea of a
+            pea flavored gum may be unusual to some, and the flavor may be an acquired taste. However, for those who
+            enjoy pea-based dishes and flavors, pea flavored gum may be a fun and interesting treat to try.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade " id="PufferfishModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog-centered modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Pufferfish Gum</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="http://localhost/ExoticGum/images/pufferfish.png" class="card-img-top" alt="Pufferfish Gum">
+          <p>
+            Pufferfish flavored gum is a unique and daring flavor that is not for the faint of heart. The gum offers a
+            slightly salty and fishy taste, as if you were actually chewing on a pufferfish. This flavor may not appeal
+            to everyone, but for those who are adventurous and love bold and unconventional flavors, it definitely
+            offers an exciting and memorable experience.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade " id="RamenModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog-centered modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Ramen Gum</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="http://localhost/ExoticGum/images/ramen.png" class="card-img-top" alt="Ramen Gum">
+          <p>
+            Ramen flavored gum is a type of chewing gum that is designed to replicate the taste of ramen, a popular
+            Japanese dish consisting of noodles in a savory broth with various toppings. This gum typically has a salty
+            and savory flavor, with hints of soy sauce, garlic, and onion. Some varieties of ramen gum may also contain
+            flavors such as pork or chicken broth, or toppings such as green onions or seaweed. Ramen flavored gum may
+            appeal to those who enjoy the taste of ramen but want a low-calorie or portable alternative. It provides a
+            unique and enjoyable chewing experience that can satisfy cravings for a savory and flavorful snack.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade " id="SambusaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog-centered modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Sambusa Gum</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="http://localhost/ExoticGum/images/sambusa.png" class="card-img-top" alt="Sambusa Gum">
+          <p>
+            Sambusa flavored gum is a unique and delicious gum flavor that captures the savory and aromatic taste of
+            sambusa, a popular snack in many Middle Eastern and African countries. The gum's flavor is infused with a
+            blend of spices that include cumin, coriander, and turmeric, along with a hint of garlic and onion. This gum
+            flavor is designed to provide a burst of savory, spicy flavor that is both satisfying and refreshing. The
+            gum's texture is chewy and long-lasting, allowing for a prolonged flavor experience. Sambusa flavored gum is
+            perfect for those who enjoy trying new and exotic flavors.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade " id="Sea_UrchinModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog-centered modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Sea Urchin Gum</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="http://localhost/ExoticGum/images/sea_urchin.png" class="card-img-top" alt="Sea Urchin Gum">
+          <p>
+            Sea urchin flavored gum is an exciting and innovative new product that captures the essence of the ocean in
+            every chew. The gum is infused with the intense and complex flavor of sea urchin, which is prized for its
+            rich and savory taste. The unique blend of salty, briny, and umami flavors creates a truly unforgettable
+            taste sensation that is sure to tantalize your taste buds. With sea urchin flavored gum, you can indulge in
+            the flavors of the sea anytime, anywhere.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade " id="SharkModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog-centered modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Shark Gum</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="http://localhost/ExoticGum/images/shark.png" class="card-img-top" alt="Shark Gum">
+          <p>
+            Shark-flavored gum is a unique and daring flavor that is sure to satisfy those who crave something out of
+            the ordinary. The taste of the gum is designed to mimic the essence of the ocean, with a salty and slightly
+            fishy flavor that may be an acquired taste. While not for everyone, shark-flavored gum is perfect for those
+            who enjoy trying new and unconventional things.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade " id="SheepModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog-centered modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Sheep Gum</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="http://localhost/ExoticGum/images/sheep.png" class="card-img-top" alt="Sheep Gum">
+          <p>
+            Sheep flavored gum is a unique and unconventional flavor that would certainly appeal to adventurous taste
+            buds! While it may not be the most popular gum flavor, it could serve as a conversation starter and a
+            memorable experience for those brave enough to try it. However, it's important to note that sheep should not
+            actually be used as an ingredient in gum due to health reasons. So, don't go looking for it at your local
+            store!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade " id="SnailModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog-centered modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Snail Gum</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="http://localhost/ExoticGum/images/snail.png" class="card-img-top" alt="Snail Gum">
+          <p>
+            Snail flavored gum is a unique and unusual gum that offers a taste unlike any other. It is designed to mimic
+            the flavor of snails, which can be described as slightly earthy and briny. The gum has a chewy texture that
+            can be satisfying for those who enjoy snails or are adventurous with their food choices. Snail flavored gum
+            may not be for everyone, but for those willing to try something new, it can be a surprisingly enjoyable
+            experience.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade " id="SurstrommingModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog-centered modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Surstromming Gum</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="http://localhost/ExoticGum/images/surstromming.png" class="card-img-top" alt="Surstromming Gum">
+          <p>
+            Surströmming is a Swedish delicacy that consists of fermented Baltic herring. Surströmming flavored gum
+            would have a pungent and strong odor, reminiscent of the fishy, salty aroma of the traditional dish. The
+            flavor would be intensely savory, with a sour and acidic undertone due to the fermentation process. The gum
+            would offer a unique and challenging taste experience, with a distinctive aftertaste that lingers long after
+            the gum has been chewed. It would not be for the faint of heart, but for those who are adventurous and
+            willing to try new and bold flavors.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade " id="SushiModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog-centered modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Sushi Gum</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="http://localhost/ExoticGum/images/sushi.png" class="card-img-top" alt="Sushi Gum">
+          <p>
+            Sushi flavored gum is a type of chewing gum that is designed to mimic the taste of sushi, a popular Japanese
+            dish consisting of vinegared rice topped with various ingredients, such as seafood, vegetables, and sauces.
+            This gum typically has a savory and umami flavor, with hints of soy sauce, wasabi, and seaweed. Some
+            varieties of sushi gum may also contain flavors such as ginger or pickled vegetables. Sushi flavored gum may
+            appeal to those who enjoy the taste of sushi but want a low-calorie or portable alternative. It provides a
+            unique and enjoyable chewing experience that can satisfy cravings for a sushi-like flavor.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!--End Modals-->
   <div class="container-fluid">
     <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 my-2 text-center">
@@ -1432,6 +1730,273 @@ include_once 'includes/dbh.inc.php';
         </div>
       </div>
 
+
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 my-2 text-center">
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#LechonaModal">
+            <img src="http://localhost/ExoticGum/images/lechona.png" class="card-img-top" alt="Lechona Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#LechonaModal">
+              <h5 class="card-title">
+                Lechona Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#Maple_SyrupModal">
+            <img src="http://localhost/ExoticGum/images/maple_syrup.png" class="card-img-top" alt="Maple Syrup Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#Maple_SyrupModal">
+              <h5 class="card-title">
+                Maple Syrup Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#MumuModal">
+            <img src="http://localhost/ExoticGum/images/mumu.png" class="card-img-top" alt="Mumu Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#MumuModal">
+              <h5 class="card-title">
+                Mumu Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#NaanModal">
+            <img src="http://localhost/ExoticGum/images/naan.png" class="card-img-top" alt="Naan Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#NaanModal">
+              <h5 class="card-title">
+                Naan Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 my-2 text-center">
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#PeaModal">
+            <img src="http://localhost/ExoticGum/images/pea.png" class="card-img-top" alt="Pea Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#PeaModal">
+              <h5 class="card-title">
+                Pea Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#PufferfishModal">
+            <img src="http://localhost/ExoticGum/images/pufferfish.png" class="card-img-top" alt="Pufferfish Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#PufferfishModal">
+              <h5 class="card-title">
+                Pufferfish Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#RamenModal">
+            <img src="http://localhost/ExoticGum/images/ramen.png" class="card-img-top" alt="Ramen Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#RamenModal">
+              <h5 class="card-title">
+                Ramen Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#SambusaModal">
+            <img src="http://localhost/ExoticGum/images/sambusa.png" class="card-img-top" alt="Sambusa Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#SambusaModal">
+              <h5 class="card-title">
+                Sambusa Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 my-2 text-center">
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#Sea_UrchinModal">
+            <img src="http://localhost/ExoticGum/images/sea_urchin.png" class="card-img-top" alt="Sea Urchin Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#Sea_UrchinModal">
+              <h5 class="card-title">
+                Sea Urchin Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#SharkModal">
+            <img src="http://localhost/ExoticGum/images/shark.png" class="card-img-top" alt="Shark Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#SharkModal">
+              <h5 class="card-title">
+                Shark Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#SheepModal">
+            <img src="http://localhost/ExoticGum/images/sheep.png" class="card-img-top" alt="Sheep Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#SheepModal">
+              <h5 class="card-title">
+                Sheep Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#SnailModal">
+            <img src="http://localhost/ExoticGum/images/snail.png" class="card-img-top" alt="Snail Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#SnailModal">
+              <h5 class="card-title">
+                Snail Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 my-2 text-center">
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#SurstrommingModal">
+            <img src="http://localhost/ExoticGum/images/surstromming.png" class="card-img-top" alt="Surstromming Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#SurstrommingModal">
+              <h5 class="card-title">
+                Surstromming Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#SushiModal">
+            <img src="http://localhost/ExoticGum/images/sushi.png" class="card-img-top" alt="Sushi Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#SushiModal">
+              <h5 class="card-title">
+                Sushi Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
 
     </div>
   </div>
