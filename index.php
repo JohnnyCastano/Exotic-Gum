@@ -43,11 +43,6 @@ include_once 'includes/dbh.inc.php';
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul class="navbar-nav ">
             <li class="nav-item px-2">
-              <a href="Specialties.php" class="nav-link btn btn-inner-clr inner-clr">
-                Specialty Gums!
-              </a>
-            </li>
-            <li class="nav-item px-2">
               <a href="Our_gums.php" class="nav-link btn btn-inner-clr inner-clr">
                 Our Gums!
               </a>
@@ -139,12 +134,12 @@ include_once 'includes/dbh.inc.php';
         </div>
         <div class="row align-items-center justify-content-center text-center">
             <div class="col-md-6 mx-auto">
-                <h2>Special Gums!</h2>
-                <h5>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                <h2>Our Special Gum!</h2>
+                <h5>Mysterious flavored gum is a unique and intriguing treat for those who enjoy a bit of surprise in their snacks. Its flavor is a closely guarded secret, leaving you guessing as to what you'll taste with each chew. Some say it's fruity, while others think it has a hint of spice. Whatever the flavor may be, it will keep you coming back for more as you try to unravel its delicious mystery. Give it a try and let your taste buds be the judge 
                 </h5>
             </div>
             <div class="col-md-6 mx-auto">
-                <img src="http://localhost/ExoticGum/images/Seahouse.png" alt="">
+                <img src="http://localhost/ExoticGum/images/mystery.png" alt="">
             </div>
         </div>
     </div>

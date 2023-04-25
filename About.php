@@ -26,40 +26,36 @@ include_once 'includes/dbh.inc.php';
 
 <section>
     <div class="container-fluid">
-        <nav class="navbar navbar-expand-sm fixed-top">
-            <a class="navbar-brand ms-auto" href="index.php">
-                <img src="http://localhost/ExoticGum/images/newlogo.png" class="logonav">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav ">
-                    <li class="nav-item px-2">
-                        <a href="Specialties.php" class="nav-link btn btn-inner-clr inner-clr">
-                            Specialty Gums!
-                        </a>
-                    </li>
-                    <li class="nav-item px-2">
-                        <a href="Our_gums.php" class="nav-link btn btn-inner-clr inner-clr">
-                            Our Gums!
-                        </a>
-                    </li>
-                    <li class="nav-item px-2">
-                        <a href="Contact.php" class="nav-link btn btn-inner-clr inner-clr">
-                            Contact Us!
-                        </a>
-                    </li>
-                    <li class="nav-item px-2">
-                        <a href="About.php" class="nav-link btn btn-inner-clr inner-clr">
-                            About Us!
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+      <nav class="navbar navbar-expand-sm fixed-top">
+        <a class="navbar-brand ms-auto" href="index.php">
+          <img src="http://localhost/ExoticGum/images/newlogo.png" class="logonav">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav ">
+            <li class="nav-item px-2">
+              <a href="Our_gums.php" class="nav-link btn btn-inner-clr inner-clr">
+                Our Gums!
+              </a>
+            </li>
+            <li class="nav-item px-2">
+              <a href="Contact.php" class="nav-link btn btn-inner-clr inner-clr">
+                Contact Us!
+              </a>
+            </li>
+            <li class="nav-item px-2">
+              <a href="About.php" class="nav-link btn btn-inner-clr inner-clr">
+                About Us!
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
-</section>
+  </section>
 
 <!--Ending of site nav bar-->
 
@@ -77,7 +73,7 @@ include_once 'includes/dbh.inc.php';
             </div>
             <div class="col-md-2 mx-auto">
                 <div class="text-center">
-                    <h5>Jhonny, Clamp, and Adnrew loved unique flavors and decided to create a website called "Exotic Gum".
+                    <h5>Johnny, Champ, and Andrew loved unique flavors and decided to create a website called "Exotic Gum".
                         They
                         spent months developing the perfect recipes for each flavor. They scoured the globe for the most
                         unusual and exciting flavors, from spicy cinnamon to fruity lychee. They sourced high-quality
@@ -132,14 +128,14 @@ include_once 'includes/dbh.inc.php';
             </div>
             <div class="col-md-6 mx-auto">
                 <h2>How we do it</h2>
-                <h5>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                <h5>Our gum company prides itself on creating unique and exotic flavors that are not commonly found in the market. We source high-quality ingredients from all over the world, and our team of expert flavorists and chemists work tirelessly to create the perfect flavor profile. We use a combination of natural and artificial flavors, carefully blending them to create a one-of-a-kind taste experience. Our process involves extensive testing and quality control to ensure that each batch of gum meets our high standards. From fruity and floral to savory and spicy, our gum flavors are always unexpected and exciting. We are constantly pushing the boundaries of what gum can be, and our commitment to innovation and creativity is what sets us apart. 
                 </h5>
             </div>
         </div>
         <div class="row align-items-center justify-content-center text-center">
             <div class="col-md-6 mx-auto">
                 <h2>Where we do it</h2>
-                <h5>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                <h5>Our location is in the deep sea of the Mariana trenches where it gives us an opportunity to explore the deep ocean to look for more unique flavors for our company. Our company offers an extensive range of flavors engineered to specifically withstand the high pressures and extreme temperatures that the Mariana Trenches offers. Don’t worry about how the shipping will go as our packaging is also constructed to be very sturdy and waterproof to prevent damage from the harsh environment. Buy from us now and we can assure you that our product will be right at your doorstep in the next 5 years safe and sound! 
                 </h5>
             </div>
             <div class="col-md-6 mx-auto">

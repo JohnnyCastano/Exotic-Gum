@@ -25,43 +25,37 @@ include_once 'includes/dbh.inc.php';
     <!--Beginning of nav bar-->
 
     <section>
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-sm fixed-top">
-                <a class="navbar-brand ms-auto" href="index.php">
-                    <img src="http://localhost/ExoticGum/images/newlogo.png" class="logonav">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul class="navbar-nav ">
-                        <li class="nav-item px-2">
-                            <a href="Specialties.php" class="nav-link btn btn-inner-clr inner-clr">
-                                Specialty Gums!
-                            </a>
-                        </li>
-                        <li class="nav-item px-2">
-                            <a href="Our_gums.php" class="nav-link btn btn-inner-clr inner-clr">
-                                Our Gums!
-                            </a>
-                        </li>
-                        <li class="nav-item px-2">
-                            <a href="Contact.php" class="nav-link btn btn-inner-clr inner-clr">
-                                Contact Us!
-                            </a>
-                        </li>
-                        <li class="nav-item px-2">
-                            <a href="About.php" class="nav-link btn btn-inner-clr inner-clr">
-                                About Us!
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-sm fixed-top">
+        <a class="navbar-brand ms-auto" href="index.php">
+          <img src="http://localhost/ExoticGum/images/newlogo.png" class="logonav">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav ">
+            <li class="nav-item px-2">
+              <a href="Our_gums.php" class="nav-link btn btn-inner-clr inner-clr">
+                Our Gums!
+              </a>
+            </li>
+            <li class="nav-item px-2">
+              <a href="Contact.php" class="nav-link btn btn-inner-clr inner-clr">
+                Contact Us!
+              </a>
+            </li>
+            <li class="nav-item px-2">
+              <a href="About.php" class="nav-link btn btn-inner-clr inner-clr">
+                About Us!
+              </a>
+            </li>
+          </ul>
         </div>
-    </section>
+      </nav>
+    </div>
+  </section>
 
     <!--End of nav bar-->
 

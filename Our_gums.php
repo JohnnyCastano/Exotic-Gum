@@ -128,7 +128,7 @@ include_once 'includes/dbh.inc.php';
         <div class="modal-body">
           <img src="http://localhost/ExoticGum/images/aseeda.png" class="card-img-top" alt="Aseeda Gum">
           <p>
-            Asseeda is a traditional African dish made from boiled flour and is often enjoyed with stews and soups.
+          Aseeda flavored gum is a unique and exotic blend of traditional North African ingredients. This gum features the rich, creamy taste of aseeda, a popular dish made from cooked wheat flour and served with butter and honey. The gum also incorporates fragrant hints of cardamom and cinnamon, adding a warm and spicy kick to the overall flavor profile. Aseeda flavored gum offers a one-of-a-kind taste experience that will transport your taste buds to the bustling markets of North Africa. 
           </p>
         </div>
       </div>
@@ -1213,7 +1213,168 @@ include_once 'includes/dbh.inc.php';
       </div> 
     </div> 
   </div> 
+
+  <div class="modal fade " id="HamburgerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog-centered modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Hamburger Gum</h1> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <img src="http://localhost/ExoticGum/images/hamburger.png" class="card-img-top" alt="Hamburger Gum"> 
+          <p> 
+          Introducing the newest flavor sensation, hamburger flavored gum! With a savory blend of beef, lettuce, tomato, and pickles, this gum will satisfy your cravings without any of the calories. Perfect for anyone who loves burgers but wants to avoid the guilt of indulging. Just pop a piece in your mouth and enjoy the delicious taste of a burger in every chew. Give it a try and see why hamburger flavored gum is the talk of the town! 
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
+
+  <div class="modal fade " id="MysteryModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog-centered modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Mystery Gum</h1> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <img src="http://localhost/ExoticGum/images/mystery.png" class="card-img-top" alt="Mystery Gum"> 
+          <p> 
+  [REDACTED]
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
+
+  <div class="modal fade " id="AcaiGumModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <p> 
+  Added Acai to Cart!
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
+
+  <div class="modal fade " id="AntGumModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <p> 
+  Added Ant to Cart!
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
+
+  <div class="modal fade " id="AseedaGumModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <p> 
+  Added Aseeda to Cart!
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
+
+  <div class="modal fade " id="BasbousaGumModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <p> 
+  Added Basbousa to Cart!
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
+  <div class="modal fade " id="Beans_On_ToastGumModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <p> 
+  Added Beans On Toast to Cart!
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
+
   <!--End Modals-->
+  
+
+<!--Offcanvas-->
+
+
+  <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Cart</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+  <p id="myId"></p>
+  </div>
+</div>
+
+
+<!--End Offcanvas-->
+
+
+
+            <!--Items added to cart-->
+
+<script>
+    var a = ['<div class = "col-sm-12">Add Your Gum Here!</div>'];
+    document.getElementById("myId").innerHTML = a;
+
+    function pushAcai() {
+        a.push('<div class = "col-sm-12">Acai Gum</div>');
+        document.getElementById("myId").innerHTML = a;
+    }
+        function pushAnt() {
+        a.push('<div class = "col-sm-12">Ant Gum</div>');
+        document.getElementById("myId").innerHTML = a;
+    }
+    function pushAseeda() {
+        a.push('<div class = "col-sm-12">Aseeda Gum</div>');
+        document.getElementById("myId").innerHTML = a;
+    }
+    function pushBasbousa() {
+        a.push('<div class = "col-sm-12">Basbousa Gum</div>');
+        document.getElementById("myId").innerHTML = a;
+    }
+    function pushBeans_On_Toast() {
+        a.push('<div class = "col-sm-12">Beans On Toast Gum</div>');
+        document.getElementById("myId").innerHTML = a;
+    }
+</script>
+
+<button class="btn btn-inner-clr inner-clr" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+  Cart
+</button>
+
   <div class="container-fluid">
     <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 my-2 text-center">
       <div class="col">
@@ -1228,9 +1389,9 @@ include_once 'includes/dbh.inc.php';
               </h5>
             </a>
             <hr>
-            <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
-            </a>
+            <button onclick="pushAcai()" data-bs-toggle="modal" data-bs-target="#AcaiGumModal" class = "btn btn-inner-clr inner-clr">
+            Add Acai Gum to Cart!
+          </button>
           </div>
         </div>
       </div>
@@ -1246,9 +1407,9 @@ include_once 'includes/dbh.inc.php';
               </h5>
             </a>
             <hr>
-            <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
-            </a>
+            <button onclick="pushAnt()" data-bs-toggle="modal" data-bs-target="#AntGumModal" class = "btn btn-inner-clr inner-clr">
+            Add Ant Gum to Cart!
+          </button>
           </div>
         </div>
       </div>
@@ -1264,9 +1425,9 @@ include_once 'includes/dbh.inc.php';
               </h5>
             </a>
             <hr>
-            <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
-            </a>
+            <button onclick="pushAseeda()" data-bs-toggle="modal" data-bs-target="#AseedaGumModal" class = "btn btn-inner-clr inner-clr">
+            Add Aseeda Gum to Cart!
+          </button>
           </div>
         </div>
       </div>
@@ -1282,9 +1443,9 @@ include_once 'includes/dbh.inc.php';
               </h5>
             </a>
             <hr>
-            <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
-            </a>
+            <button onclick="pushBasbousa()" data-bs-toggle="modal" data-bs-target="#BasbousaGumModal" class = "btn btn-inner-clr inner-clr">
+            Add Basbousa Gum to Cart!
+          </button>
           </div>
         </div>
       </div>
@@ -1303,9 +1464,9 @@ include_once 'includes/dbh.inc.php';
               </h5>
             </a>
             <hr>
-            <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
-            </a>
+            <button onclick="pushBeans_On_Toast()" data-bs-toggle="modal" data-bs-target="#Beans_On_ToastGumModal" class = "btn btn-inner-clr inner-clr">
+            Add Beans On Toast Gum to Cart!
+          </button>
           </div>
         </div>
       </div>
@@ -2262,6 +2423,43 @@ include_once 'includes/dbh.inc.php';
           </div>
         </div>
       </div>
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#HamburgerModal">
+            <img src="http://localhost/ExoticGum/images/hamburger.png" class="card-img-top" alt="Hamburger Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#HamburgerModal">
+              <h5 class="card-title">
+                Hamburger Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
+          <a data-bs-toggle="modal" data-bs-target="#MysteryModal">
+            <img src="http://localhost/ExoticGum/images/mystery.png" class="card-img-top" alt="Mystery Gum">
+          </a>
+          <div class="card-body">
+            <a data-bs-toggle="modal" data-bs-target="#MysteryModal">
+              <h5 class="card-title">
+                Mystery Gum
+              </h5>
+            </a>
+            <hr>
+            <a href="Order.php" class="btn btn-inner-clr inner-clr">
+              Add To Cart!
+            </a>
+          </div>
+        </div>
+      </div>
+
 
 </div>
 </div>
