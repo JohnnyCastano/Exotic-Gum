@@ -6,24 +6,24 @@ include_once 'includes/dbh.inc.php';
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Andrew Ellis, Johnny Martinez, Champ Nguyen">
-    <meta name="keywords" content="Gum, exotic flavors, Exotic Gum, World Gum">
-    <link rel="shortcut icon" href="/images/logo.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Andrew Ellis, Johnny Martinez, Champ Nguyen">
+  <meta name="keywords" content="Gum, exotic flavors, Exotic Gum, World Gum">
+  <link rel="shortcut icon" href="/images/logo.png">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
-    <title>Exotic Gum!</title>
+  <title>Exotic Gum!</title>
 
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 
-<section>
+  <section>
     <div class="container-fluid">
       <nav class="navbar navbar-expand-sm fixed-top">
         <a class="navbar-brand ms-auto" href="index.php">
@@ -57,75 +57,100 @@ include_once 'includes/dbh.inc.php';
   </section>
 
 
-    <!--CSS Waves-->
-
-    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-        viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-        <defs>
-            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-        </defs>
-        <g class="parallax">
-            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(122,198,217,0.7" />
-            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(109,178,195,0.5)" />
-            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(122,198,217,0.3)" />
-            <use xlink:href="#gentle-wave" x="48" y="7" fill="#7AC6D9" />
-        </g>
-    </svg>
-
-    <!--End of waves-->
-
-    <!--Beginning of footer-->
-
-
-    <section class="footer-section">
-        <footer>
-            <div class="container-fluid">
-                <br>
-                <div class="row text-center justify-content-center">
-                    <div class="col-md-4">
-                        <h2 class="footer-head">Follow Us</h2>
-                        Follow us on our Social Medias to keep up with recent news about new and up and coming Gums!
-                        <br>
-                        <br>
-                        <a href="https://www.facebook.com/profile.php?id=100091569529499">
-                            <img src="/images/Facebook_Logo.png" height="50px">
-                        </a>
-                        <a href="https://instagram.com/exotic_gum?igshid=YmMyMTA2M2Y=">
-                            <img src="/images/Instagram_logo.png" height="50px">
-                        </a>
-                    </div>
-                    <div class="col-md-4">
-                        <br>
-                        <a href="#top">
-                            <img src="/images/newlogo.png " height="150px">
-                        </a>
-                        <br>
-                    </div>
-                    <div class="col-md-4 ">
-                        <h2 class="footer-head">Find Us</h2>
-                        Our location!
-                        <br>
-                        The depths of the Mariana Trench
-                        <br>
-                        The Sea
-                        <br>
-                        55555
-                        <br>
-                        (555) 555-5555
-                    </div>
-                </div>
-                <br>
-                <br>
-
-        </footer>
-    </section>
-
-
-    <!--End of footer-->
+  <section>
+    <div class="col-md-8 contact-boxes">
+      <form>
+        <div class="input-group">
+          <input type="text" id="name" required>
+          <label for="name">Your Name</label>
+        </div>
+        <div class="input-group">
+          <input type="text" id="number" required>
+          <label for="number">Phone No.</label>
+        </div>
+        <div class="input-group">
+          <input type="email" id="email" required>
+          <label for="email">Email</label>
+        </div>
+        <div class="input-group">
+          <textarea id="message" rows="8" required></textarea>
+          <label for="message">Comment</label>
+        </div>
+        <button type="submit" class="submit-contact">SUBMIT</button>
+      </form>
     </div>
+  </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
-        </script>
+  <!--CSS Waves-->
+
+  <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28"
+    preserveAspectRatio="none" shape-rendering="auto">
+    <defs>
+      <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+    </defs>
+    <g class="parallax">
+      <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(122,198,217,0.7" />
+      <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(109,178,195,0.5)" />
+      <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(122,198,217,0.3)" />
+      <use xlink:href="#gentle-wave" x="48" y="7" fill="#7AC6D9" />
+    </g>
+  </svg>
+
+  <!--End of waves-->
+
+  <!--Beginning of footer-->
+
+
+  <section class="footer-section">
+    <footer>
+      <div class="container-fluid">
+        <br>
+        <div class="row text-center justify-content-center">
+          <div class="col-md-4">
+            <h2 class="footer-head">Follow Us</h2>
+            Follow us on our Social Medias to keep up with recent news about new and up and coming Gums!
+            <br>
+            <br>
+            <a href="https://www.facebook.com/profile.php?id=100091569529499">
+              <img src="/images/Facebook_Logo.png" height="50px">
+            </a>
+            <a href="https://instagram.com/exotic_gum?igshid=YmMyMTA2M2Y=">
+              <img src="/images/Instagram_logo.png" height="50px">
+            </a>
+          </div>
+          <div class="col-md-4">
+            <br>
+            <a href="#top">
+              <img src="/images/newlogo.png " height="150px">
+            </a>
+            <br>
+          </div>
+          <div class="col-md-4 ">
+            <h2 class="footer-head">Find Us</h2>
+            Our location!
+            <br>
+            The depths of the Mariana Trench
+            <br>
+            The Sea
+            <br>
+            55555
+            <br>
+            (555) 555-5555
+          </div>
+        </div>
+        <br>
+        <br>
+
+    </footer>
+  </section>
+
+
+
+  <!--End of footer-->
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
 
 </body>

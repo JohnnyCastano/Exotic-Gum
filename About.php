@@ -92,7 +92,7 @@ include_once 'includes/dbh.inc.php';
             </div>
             <div class="col-md-8 mx-auto">
                 <div class="text-center">
-
+                    <img src="http://localhost/ExoticGum/images/founding.png" alt="">
                 </div>
             </div>
         </div>
@@ -234,7 +234,17 @@ Sometimes, Johnny gets distracted by little things, like the sound of a pencil t
     </div>
 </section>
 
+
+<br>
+<br>
+<br>
+
+
 <!--End of About content-->
+<div class = "text-center mx-auto">
+    <h1>Where We Are...</h1>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15647.200091967467!2d142.1995658!3d11.3493124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x67328f3cd57de715%3A0x1bbe64e7a21aa7fc!2sMariana%20Trench!5e0!3m2!1sen!2sus!4v1682440372344!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
 
 
 <!--CSS Waves-->

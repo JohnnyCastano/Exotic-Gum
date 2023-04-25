@@ -40,11 +40,6 @@ include_once 'includes/dbh.inc.php';
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul class="navbar-nav ">
             <li class="nav-item px-2">
-              <a href="Specialties.php" class="nav-link btn btn-inner-clr inner-clr">
-                Specialty Gums!
-              </a>
-            </li>
-            <li class="nav-item px-2">
               <a href="Our_gums.php" class="nav-link btn btn-inner-clr inner-clr">
                 Our Gums!
               </a>
@@ -72,6 +67,8 @@ include_once 'includes/dbh.inc.php';
   <br>
   <br>
   <br>
+
+
 
   <!--Modals-->
 
@@ -421,15 +418,15 @@ include_once 'includes/dbh.inc.php';
   </div>
 
 
-  <div class="modal fade " id="CrroissantModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade " id="CroissantModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog-centered modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Crroissant Gum</h1>
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Croissant Gum</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <img src="http://localhost/ExoticGum/images/croissant.png" class="card-img-top" alt="Crroissant Gum">
+          <img src="http://localhost/ExoticGum/images/croissant.png" class="card-img-top" alt="Croissant Gum">
           <p>
             Croissant flavored gum is a type of chewing gum that is designed to replicate the taste of croissants, a
             popular pastry originating from France. This gum is typically made with a combination of buttery and sweet
@@ -1256,7 +1253,7 @@ include_once 'includes/dbh.inc.php';
         </div> 
         <div class="modal-body"> 
           <p> 
-  Added Acai to Cart!
+  Added Acai Gum to Cart!
           </p> 
         </div>
       </div> 
@@ -1271,7 +1268,7 @@ include_once 'includes/dbh.inc.php';
         </div> 
         <div class="modal-body"> 
           <p> 
-  Added Ant to Cart!
+  Added Ant Gum to Cart!
           </p> 
         </div>
       </div> 
@@ -1286,7 +1283,7 @@ include_once 'includes/dbh.inc.php';
         </div> 
         <div class="modal-body"> 
           <p> 
-  Added Aseeda to Cart!
+  Added Aseeda Gum to Cart!
           </p> 
         </div>
       </div> 
@@ -1301,7 +1298,7 @@ include_once 'includes/dbh.inc.php';
         </div> 
         <div class="modal-body"> 
           <p> 
-  Added Basbousa to Cart!
+  Added Basbousa Gum to Cart!
           </p> 
         </div>
       </div> 
@@ -1315,13 +1312,327 @@ include_once 'includes/dbh.inc.php';
         </div> 
         <div class="modal-body"> 
           <p> 
-  Added Beans On Toast to Cart!
+  Added Beans On Toast Gum to Cart!
           </p> 
         </div>
       </div> 
     </div> 
   </div> 
 
+  <div class="modal fade " id="BirriaGumModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <p> 
+  Added Birria Gum to Cart!
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
+
+  <div class="modal fade " id="BratwurstGumModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <p> 
+  Added Bratwurst Gum to Cart!
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
+
+  <div class="modal fade " id="BreadfruitGumModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <p> 
+  Added Breadfruit Gum to Cart!
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
+
+  <div class="modal fade " id="ChamoyGumModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <p> 
+  Added Chamoy Gum to Cart!
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
+
+  <div class="modal fade " id="ChechebsaGumModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <p> 
+  Added Chechebsa Gum to Cart!
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
+
+  <div class="modal fade " id="Cheese_RollGumModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <p> 
+  Added Cheese Roll Gum to Cart!
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
+
+  <div class="modal fade " id="Chicken_HeartGumModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <p> 
+  Added Chicken Heart Gum to Cart!
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
+
+  <div class="modal fade " id="ChickpeaGumModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <p> 
+  Added Chickpea Gum to Cart!
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
+
+  <div class="modal fade " id="CrepeGumModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <p> 
+  Added Crepe Gum to Cart!
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
+
+  <div class="modal fade " id="CriadillaGumModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <p> 
+  Added Criadilla Gum to Cart!
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
+
+  <div class="modal fade " id="CrocodileGumModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <p> 
+  Added Crocodile Gum to Cart!
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
+
+  <div class="modal fade " id="CroissantGumModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <p> 
+  Added Croissant Gum to Cart!
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
+
+  <div class="modal fade " id="CurryGumModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <p> 
+  Added Curry Gum to Cart!
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
+
+  <div class="modal fade " id="Deep_Fried_OreoGumModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <p> 
+  Added Deep Fried Oreo Gum to Cart!
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
+
+  <div class="modal fade " id="Dill_PickleGumModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <p> 
+  Added Dill Pickle Gum to Cart!
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
+
+  <div class="modal fade " id="DuckGumModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <p> 
+  Added Duck Gum to Cart!
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
+
+  <div class="modal fade " id="DumplingGumModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <p> 
+  Added Dumpling Gum to Cart!
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
+
+  <div class="modal fade " id="EmpanadaGumModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <p> 
+  Added Empanada Gum to Cart!
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
+
+  <div class="modal fade " id="Fish_And_ChipsGumModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <p> 
+  Added Fish and Chips Gum to Cart!
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
+
+  <div class="modal fade " id="Fried_ChickenGumModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <p> 
+  Added Fried Chicken Gum to Cart!
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
+
+  <div class="modal fade " id="FrogGumModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog"> 
+      <div class="modal-content"> 
+        <div class="modal-header"> 
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
+        </div> 
+        <div class="modal-body"> 
+          <p> 
+  Added Frog Gum to Cart!
+          </p> 
+        </div>
+      </div> 
+    </div> 
+  </div> 
   <!--End Modals-->
   
 
@@ -1350,30 +1661,112 @@ include_once 'includes/dbh.inc.php';
     document.getElementById("myId").innerHTML = a;
 
     function pushAcai() {
-        a.push('<div class = "col-sm-12">Acai Gum</div>');
+        a.push('<div class = "col-sm-12">$7.99  Acai Gum</div>');
         document.getElementById("myId").innerHTML = a;
     }
         function pushAnt() {
-        a.push('<div class = "col-sm-12">Ant Gum</div>');
+        a.push('<div class = "col-sm-12">$7.99  Ant Gum</div>');
         document.getElementById("myId").innerHTML = a;
     }
     function pushAseeda() {
-        a.push('<div class = "col-sm-12">Aseeda Gum</div>');
+        a.push('<div class = "col-sm-12">$7.99  Aseeda Gum</div>');
         document.getElementById("myId").innerHTML = a;
     }
     function pushBasbousa() {
-        a.push('<div class = "col-sm-12">Basbousa Gum</div>');
+        a.push('<div class = "col-sm-12">$7.99  Basbousa Gum</div>');
         document.getElementById("myId").innerHTML = a;
     }
     function pushBeans_On_Toast() {
-        a.push('<div class = "col-sm-12">Beans On Toast Gum</div>');
+        a.push('<div class = "col-sm-12">$7.99  Beans On Toast Gum</div>');
         document.getElementById("myId").innerHTML = a;
     }
+    function pushBirria() {
+        a.push('<div class = "col-sm-12">$7.99  Birria Gum</div>');
+        document.getElementById("myId").innerHTML = a;
+    }
+    function pushBratwurst() {
+        a.push('<div class = "col-sm-12">$7.99  Bratwurst Gum</div>');
+        document.getElementById("myId").innerHTML = a;
+    }
+    function pushBreadfruit() {
+        a.push('<div class = "col-sm-12">$7.99  Breadfruit Gum</div>');
+        document.getElementById("myId").innerHTML = a;
+    }
+    function pushChamoy() {
+        a.push('<div class = "col-sm-12">$7.99  Chamoy Gum</div>');
+        document.getElementById("myId").innerHTML = a;
+    }
+    function pushChechebsa() {
+        a.push('<div class = "col-sm-12">$7.99  Chechebsa Gum</div>');
+        document.getElementById("myId").innerHTML = a;
+    }
+    function pushCheese_Roll() {
+        a.push('<div class = "col-sm-12">$7.99  Cheese Roll Gum</div>');
+        document.getElementById("myId").innerHTML = a;
+    }
+    function pushChicken_Heart() {
+        a.push('<div class = "col-sm-12">$7.99  Chicken Heart Gum</div>');
+        document.getElementById("myId").innerHTML = a;
+    }
+    function pushChickpea() {
+        a.push('<div class = "col-sm-12">$7.99  Chickpea Gum</div>');
+        document.getElementById("myId").innerHTML = a;
+    }
+    function pushCrepe() {
+        a.push('<div class = "col-sm-12">$7.99  Crepe Gum</div>');
+        document.getElementById("myId").innerHTML = a;
+    }
+    function pushCriadilla() {
+        a.push('<div class = "col-sm-12">$7.99  Criadilla Gum</div>');
+        document.getElementById("myId").innerHTML = a;
+    }
+    function pushCrocodile() {
+        a.push('<div class = "col-sm-12">$7.99  Crocodile Gum</div>');
+        document.getElementById("myId").innerHTML = a;
+    }
+    function pushCroissant() {
+        a.push('<div class = "col-sm-12">$7.99  Croissant Gum</div>');
+        document.getElementById("myId").innerHTML = a;
+    }
+    function pushCurry() {
+        a.push('<div class = "col-sm-12">$7.99  Curry Gum</div>');
+        document.getElementById("myId").innerHTML = a;
+    }
+    function pushDeep_Fried_Oreo() {
+        a.push('<div class = "col-sm-12">$7.99  Deep Fried Oreo Gum</div>');
+        document.getElementById("myId").innerHTML = a;
+    }
+    function pushDill_Pickle() {
+        a.push('<div class = "col-sm-12">$7.99  Dill Pickle Gum</div>');
+        document.getElementById("myId").innerHTML = a;
+    }
+    function pushDuck() {
+        a.push('<div class = "col-sm-12">$7.99  Duck Gum</div>');
+        document.getElementById("myId").innerHTML = a;
+    }
+    function pushDumpling() {
+        a.push('<div class = "col-sm-12">$7.99  Dumpling Gum</div>');
+        document.getElementById("myId").innerHTML = a;
+    }
+    function pushEmpanada() {
+        a.push('<div class = "col-sm-12">$7.99  Empanada Gum</div>');
+        document.getElementById("myId").innerHTML = a;
+    }
+    function pushFish_And_Chips() {
+        a.push('<div class = "col-sm-12">$7.99  Fish and Chips Gum</div>');
+        document.getElementById("myId").innerHTML = a;
+    }
+    function pushFried_Chicken() {
+        a.push('<div class = "col-sm-12">$7.99  Fried Chicken Gum</div>');
+        document.getElementById("myId").innerHTML = a;
+    }
+    function pushFrog() {
+        a.push('<div class = "col-sm-12">$7.99  Frog Gum</div>');
+        document.getElementById("myId").innerHTML = a;
+    }
+
 </script>
 
-<button class="btn btn-inner-clr inner-clr" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
-  Cart
-</button>
 
   <div class="container-fluid">
     <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 my-2 text-center">
@@ -1482,9 +1875,9 @@ include_once 'includes/dbh.inc.php';
               </h5>
             </a>
             <hr>
-            <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
-            </a>
+            <button onclick="pushBirria()" data-bs-toggle="modal" data-bs-target="#BirriaGumModal" class = "btn btn-inner-clr inner-clr">
+            Add Birria Gum to Cart!
+          </button>
           </div>
         </div>
       </div>
@@ -1500,9 +1893,9 @@ include_once 'includes/dbh.inc.php';
               </h5>
             </a>
             <hr>
-            <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
-            </a>
+            <button onclick="pushBratwurst()" data-bs-toggle="modal" data-bs-target="#BratwurstGumModal" class = "btn btn-inner-clr inner-clr">
+            Add Bratwurst Gum to Cart!
+          </button>
           </div>
         </div>
       </div>
@@ -1518,9 +1911,9 @@ include_once 'includes/dbh.inc.php';
               </h5>
             </a>
             <hr>
-            <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
-            </a>
+            <button onclick="pushBreadfruit()" data-bs-toggle="modal" data-bs-target="#BreadfruitGumModal" class = "btn btn-inner-clr inner-clr">
+            Add Breadfruit Gum to Cart!
+          </button>
           </div>
         </div>
       </div>
@@ -1541,9 +1934,9 @@ include_once 'includes/dbh.inc.php';
               </h5>
             </a>
             <hr>
-            <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
-            </a>
+            <button onclick="pushChamoy()" data-bs-toggle="modal" data-bs-target="#ChamoyGumModal" class = "btn btn-inner-clr inner-clr">
+            Add Chamoy Gum to Cart!
+          </button>
           </div>
         </div>
       </div>
@@ -1559,9 +1952,9 @@ include_once 'includes/dbh.inc.php';
               </h5>
             </a>
             <hr>
-            <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
-            </a>
+            <button onclick="pushChechebsa()" data-bs-toggle="modal" data-bs-target="#ChechebsaGumModal" class = "btn btn-inner-clr inner-clr">
+            Add Chechebsa Gum to Cart!
+          </button>
           </div>
         </div>
       </div>
@@ -1577,9 +1970,9 @@ include_once 'includes/dbh.inc.php';
               </h5>
             </a>
             <hr>
-            <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
-            </a>
+            <button onclick="pushCheese_Roll()" data-bs-toggle="modal" data-bs-target="#Cheese_RollGumModal" class = "btn btn-inner-clr inner-clr">
+            Add Cheese Roll Gum to Cart!
+          </button>
           </div>
         </div>
       </div>
@@ -1595,9 +1988,9 @@ include_once 'includes/dbh.inc.php';
               </h5>
             </a>
             <hr>
-            <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
-            </a>
+            <button onclick="pushChicken_Heart()" data-bs-toggle="modal" data-bs-target="#Chicken_HeartGumModal" class = "btn btn-inner-clr inner-clr">
+            Add Chicken Heart Gum to Cart!
+          </button>
           </div>
         </div>
       </div>
@@ -1618,9 +2011,9 @@ include_once 'includes/dbh.inc.php';
               </h5>
             </a>
             <hr>
-            <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
-            </a>
+            <button onclick="pushChickpea()" data-bs-toggle="modal" data-bs-target="#ChickpeaGumModal" class = "btn btn-inner-clr inner-clr">
+            Add Chickpea Gum to Cart!
+          </button>
           </div>
         </div>
       </div>
@@ -1636,9 +2029,9 @@ include_once 'includes/dbh.inc.php';
               </h5>
             </a>
             <hr>
-            <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
-            </a>
+            <button onclick="pushCrepe()" data-bs-toggle="modal" data-bs-target="#CrepeGumModal" class = "btn btn-inner-clr inner-clr">
+            Add Crepe Gum to Cart!
+          </button>
           </div>
         </div>
       </div>
@@ -1654,9 +2047,9 @@ include_once 'includes/dbh.inc.php';
               </h5>
             </a>
             <hr>
-            <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
-            </a>
+            <button onclick="pushCriadilla()" data-bs-toggle="modal" data-bs-target="#CriadillaGumModal" class = "btn btn-inner-clr inner-clr">
+            Add Criadilla Gum to Cart!
+          </button>
           </div>
         </div>
       </div>
@@ -1672,9 +2065,9 @@ include_once 'includes/dbh.inc.php';
               </h5>
             </a>
             <hr>
-            <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
-            </a>
+            <button onclick="pushCrocodile()" data-bs-toggle="modal" data-bs-target="#CrocodileGumModal" class = "btn btn-inner-clr inner-clr">
+            Add Crocodile Gum to Cart!
+          </button>
           </div>
         </div>
       </div>
@@ -1686,19 +2079,19 @@ include_once 'includes/dbh.inc.php';
     <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4 my-2 text-center">
       <div class="col">
         <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
-          <a data-bs-toggle="modal" data-bs-target="#CrroissantModal">
-            <img src="http://localhost/ExoticGum/images/croissant.png" class="card-img-top" alt="Crroissant Gum">
+          <a data-bs-toggle="modal" data-bs-target="#CroissantModal">
+            <img src="http://localhost/ExoticGum/images/croissant.png" class="card-img-top" alt="Croissant Gum">
           </a>
           <div class="card-body">
-            <a data-bs-toggle="modal" data-bs-target="#CrroissantModal">
+            <a data-bs-toggle="modal" data-bs-target="#CroissantModal">
               <h5 class="card-title">
-                Crroissant Gum
+                Croissant Gum
               </h5>
             </a>
             <hr>
-            <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
-            </a>
+            <button onclick="pushCroissant()" data-bs-toggle="modal" data-bs-target="#CroissantGumModal" class = "btn btn-inner-clr inner-clr">
+            Add Croissant Gum to Cart!
+          </button>
           </div>
         </div>
       </div>
@@ -1714,9 +2107,9 @@ include_once 'includes/dbh.inc.php';
               </h5>
             </a>
             <hr>
-            <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
-            </a>
+            <button onclick="pushCurry()" data-bs-toggle="modal" data-bs-target="#CurryGumModal" class = "btn btn-inner-clr inner-clr">
+            Add Curry Gum to Cart!
+          </button>
           </div>
         </div>
       </div>
@@ -1733,9 +2126,9 @@ include_once 'includes/dbh.inc.php';
               </h5>
             </a>
             <hr>
-            <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
-            </a>
+              <button onclick="pushDeep_Fried_Oreo()" data-bs-toggle="modal" data-bs-target="#Deep_Fried_OreoGumModal" class = "btn btn-inner-clr inner-clr">
+            Add Deep Fried Oreo Gum to Cart!
+          </button>
           </div>
         </div>
       </div>
@@ -1751,9 +2144,9 @@ include_once 'includes/dbh.inc.php';
               </h5>
             </a>
             <hr>
-            <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
-            </a>
+            <button onclick="pushDill_Pickle()" data-bs-toggle="modal" data-bs-target="#Dill_PickleGumModal" class = "btn btn-inner-clr inner-clr">
+            Add Dill Pickle Gum to Cart!
+          </button>
           </div>
         </div>
       </div>
@@ -1775,9 +2168,9 @@ include_once 'includes/dbh.inc.php';
               </h5>
             </a>
             <hr>
-            <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
-            </a>
+            <button onclick="pushDuck()" data-bs-toggle="modal" data-bs-target="#DuckGumModal" class = "btn btn-inner-clr inner-clr">
+            Add Duck Gum to Cart!
+          </button>
           </div>
         </div>
       </div>
@@ -1793,9 +2186,9 @@ include_once 'includes/dbh.inc.php';
               </h5>
             </a>
             <hr>
-            <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
-            </a>
+            <button onclick="pushDumpling()" data-bs-toggle="modal" data-bs-target="#DumplingGumModal" class = "btn btn-inner-clr inner-clr">
+            Add Dumpling Gum to Cart!
+          </button>
           </div>
         </div>
       </div>
@@ -1811,9 +2204,9 @@ include_once 'includes/dbh.inc.php';
               </h5>
             </a>
             <hr>
-            <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
-            </a>
+            <button onclick="pushEmpanada()" data-bs-toggle="modal" data-bs-target="#EmpanadaGumModal" class = "btn btn-inner-clr inner-clr">
+            Add Empanada Gum to Cart!
+          </button>
           </div>
         </div>
       </div>
@@ -1831,9 +2224,9 @@ include_once 'includes/dbh.inc.php';
               </h5>
             </a>
             <hr>
-            <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
-            </a>
+            <button onclick="pushFish_And_Chips()" data-bs-toggle="modal" data-bs-target="#Fish_And_ChipsGumModal" class = "btn btn-inner-clr inner-clr">
+            Add Fish and Chips Gum to Cart!
+          </button>
           </div>
         </div>
       </div>
@@ -1856,9 +2249,9 @@ include_once 'includes/dbh.inc.php';
               </h5>
             </a>
             <hr>
-            <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
-            </a>
+            <button onclick="pushFried_Chicken()" data-bs-toggle="modal" data-bs-target="#Fried_ChickenGumModal" class = "btn btn-inner-clr inner-clr">
+            Add Fried Chicken Gum to Cart!
+          </button>
           </div>
         </div>
       </div>  
@@ -1874,9 +2267,9 @@ include_once 'includes/dbh.inc.php';
               </h5>
             </a>
             <hr>
-            <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
-            </a>
+            <button onclick="pushFrog()" data-bs-toggle="modal" data-bs-target="#FrogGumModal" class = "btn btn-inner-clr inner-clr">
+            Add Frog Gum to Cart!
+          </button>
           </div>
         </div>
       </div>
@@ -1893,7 +2286,7 @@ include_once 'includes/dbh.inc.php';
             </a>
             <hr>
             <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
+              Add Gum to Cart!
             </a>
           </div>
         </div>
@@ -1912,7 +2305,7 @@ include_once 'includes/dbh.inc.php';
             </a>
             <hr>
             <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
+              Add Gum to Cart!
             </a>
           </div>
         </div>
@@ -1935,7 +2328,7 @@ include_once 'includes/dbh.inc.php';
             </a>
             <hr>
             <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
+              Add Gum to Cart!
             </a>
           </div>
         </div>
@@ -1956,7 +2349,7 @@ include_once 'includes/dbh.inc.php';
             </a>
             <hr>
             <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
+              Add Gum to Cart!
             </a>
           </div>
         </div>
@@ -1974,7 +2367,7 @@ include_once 'includes/dbh.inc.php';
             </a>
             <hr>
             <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
+              Add Gum to Cart!
             </a>
           </div>
         </div>
@@ -1992,7 +2385,7 @@ include_once 'includes/dbh.inc.php';
             </a>
             <hr>
             <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
+              Add Gum to Cart!
             </a>
           </div>
         </div>
@@ -2014,7 +2407,7 @@ include_once 'includes/dbh.inc.php';
             </a>
             <hr>
             <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
+              Add Gum to Cart!
             </a>
           </div>
         </div>
@@ -2033,7 +2426,7 @@ include_once 'includes/dbh.inc.php';
             </a>
             <hr>
             <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
+              Add Gum to Cart!
             </a>
           </div>
         </div>
@@ -2051,7 +2444,7 @@ include_once 'includes/dbh.inc.php';
             </a>
             <hr>
             <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
+              Add Gum to Cart!
             </a>
           </div>
         </div>
@@ -2069,7 +2462,7 @@ include_once 'includes/dbh.inc.php';
             </a>
             <hr>
             <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
+              Add Gum to Cart!
             </a>
           </div>
         </div>
@@ -2091,7 +2484,7 @@ include_once 'includes/dbh.inc.php';
             </a>
             <hr>
             <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
+              Add Gum to Cart!
             </a>
           </div>
         </div>
@@ -2109,7 +2502,7 @@ include_once 'includes/dbh.inc.php';
             </a>
             <hr>
             <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
+              Add Gum to Cart!
             </a>
           </div>
         </div>
@@ -2127,7 +2520,7 @@ include_once 'includes/dbh.inc.php';
             </a>
             <hr>
             <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
+              Add Gum to Cart!
             </a>
           </div>
         </div>
@@ -2145,7 +2538,7 @@ include_once 'includes/dbh.inc.php';
             </a>
             <hr>
             <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
+              Add Gum to Cart!
             </a>
           </div>
         </div>
@@ -2167,7 +2560,7 @@ include_once 'includes/dbh.inc.php';
             </a>
             <hr>
             <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
+              Add Gum to Cart!
             </a>
           </div>
         </div>
@@ -2186,7 +2579,7 @@ include_once 'includes/dbh.inc.php';
             </a>
             <hr>
             <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
+              Add Gum to Cart!
             </a>
           </div>
         </div>
@@ -2204,7 +2597,7 @@ include_once 'includes/dbh.inc.php';
             </a>
             <hr>
             <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
+              Add Gum to Cart!
             </a>
           </div>
         </div>
@@ -2222,7 +2615,7 @@ include_once 'includes/dbh.inc.php';
             </a>
             <hr>
             <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
+              Add Gum to Cart!
             </a>
           </div>
         </div>
@@ -2246,7 +2639,7 @@ include_once 'includes/dbh.inc.php';
             </a>
             <hr>
             <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
+              Add Gum to Cart!
             </a>
           </div>
         </div>
@@ -2264,7 +2657,7 @@ include_once 'includes/dbh.inc.php';
             </a>
             <hr>
             <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
+              Add Gum to Cart!
             </a>
           </div>
         </div>
@@ -2282,7 +2675,7 @@ include_once 'includes/dbh.inc.php';
             </a>
             <hr>
             <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
+              Add Gum to Cart!
             </a>
           </div>
         </div>
@@ -2300,7 +2693,7 @@ include_once 'includes/dbh.inc.php';
             </a>
             <hr>
             <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
+              Add Gum to Cart!
             </a>
           </div>
         </div>
@@ -2322,7 +2715,7 @@ include_once 'includes/dbh.inc.php';
             </a>
             <hr>
             <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
+              Add Gum to Cart!
             </a>
           </div>
         </div>
@@ -2341,7 +2734,7 @@ include_once 'includes/dbh.inc.php';
             </a>
             <hr>
             <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
+              Add Gum to Cart!
             </a>
           </div>
         </div>
@@ -2359,7 +2752,7 @@ include_once 'includes/dbh.inc.php';
             </a>
             <hr>
             <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
+              Add Gum to Cart!
             </a>
           </div>
         </div>
@@ -2377,7 +2770,7 @@ include_once 'includes/dbh.inc.php';
             </a>
             <hr>
             <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
+              Add Gum to Cart!
             </a>
           </div>
         </div>
@@ -2399,7 +2792,7 @@ include_once 'includes/dbh.inc.php';
             </a>
             <hr>
             <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
+              Add Gum to Cart!
             </a>
           </div>
         </div>
@@ -2418,7 +2811,7 @@ include_once 'includes/dbh.inc.php';
             </a>
             <hr>
             <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
+              Add Gum to Cart!
             </a>
           </div>
         </div>
@@ -2436,7 +2829,7 @@ include_once 'includes/dbh.inc.php';
             </a>
             <hr>
             <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
+              Add Gum to Cart!
             </a>
           </div>
         </div>
@@ -2454,7 +2847,7 @@ include_once 'includes/dbh.inc.php';
             </a>
             <hr>
             <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
+              Add Gum to Cart!
             </a>
           </div>
         </div>
@@ -2463,13 +2856,14 @@ include_once 'includes/dbh.inc.php';
 
 </div>
 </div>
-  <!--Back to Top button-->
+<div class="sticky-bottom">
+<button class="btn btn-inner-clr inner-clr mx-4 my-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+<img src = "http://localhost/ExoticGum/images/cart.svg" height = 100px>    
+<br>
+</button>
 
+</div>
 
-  <a href="#" class="b2t mx-auto"><i class="fas fa-chevron-up"></i></a>
-
-
-  <!--End to Top button-->
 
 
   <!--CSS Waves-->
@@ -2541,20 +2935,8 @@ include_once 'includes/dbh.inc.php';
 
     </footer>
   </section>
-
-
+ 
   <!--End of footer-->
-
-
-
-
-  <!--Back to Top button-->
-
-
-  <a href="#" class="b2t mx-auto"><i class="fas fa-chevron-up"></i></a>
-
-
-  <!--End to Top button-->
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"

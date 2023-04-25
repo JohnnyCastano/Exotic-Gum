@@ -1,35 +1,27 @@
-<div class="col">
-        <div class="card card-gums text-center h-100 mx-4 px-4 py-2 my-2">
-          <a data-bs-toggle="modal" data-bs-target="#--+--Modal">
-            <img src="http://localhost/ExoticGum/images/++-++.png" class="card-img-top" alt="--+-- Gum">
-          </a>
-          <div class="card-body">
-            <a data-bs-toggle="modal" data-bs-target="#--+--Modal">
-              <h5 class="card-title">
-                --+-- Gum
-              </h5>
-            </a>
-            <hr>
-            <a href="Order.php" class="btn btn-inner-clr inner-clr">
-              Add To Cart!
-            </a>
-          </div>
-        </div>
-      </div>
+  function push--+--() {
+        a.push('<div class = "col-sm-12">$7.99  --+-- Gum</div>');
+        document.getElementById("myId").innerHTML = a;
+    }
 
-      <div class="modal fade " id="--+--Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
-    <div class="modal-dialog-centered modal-dialog"> 
+
+
+    <div class="modal fade " id="--+--GumModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+    <div class="modal-dialog"> 
       <div class="modal-content"> 
         <div class="modal-header"> 
-          <h1 class="modal-title fs-5" id="exampleModalLabel">--+-- Gum</h1> 
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> 
         </div> 
         <div class="modal-body"> 
-          <img src="http://localhost/ExoticGum/images/++-++.png" class="card-img-top" alt="--+-- Gum"> 
           <p> 
-  
+  Added --+-- Gum to Cart!
           </p> 
         </div>
       </div> 
     </div> 
   </div> 
+
+
+
+  <button onclick="push--+--()" data-bs-toggle="modal" data-bs-target="#--+--GumModal" class = "btn btn-inner-clr inner-clr">
+            Add --+-- Gum to Cart!
+          </button>

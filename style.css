@@ -251,3 +251,57 @@ p {
   background-color: #7AC6D9;
 }
 
+/*Contact form*/
+
+form {
+  width: 90%;
+  max-width: 90%;
+}
+
+.input-group {
+  margin-bottom: 30px;
+  position: relative;
+  border-radius: 12px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  font-size: 15px;
+  background-color: #000;
+  color: #FFF;
+  box-shadow: 4px 4px 0.125rem #5e0819;
+}
+
+label {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  color: #FFF;
+  cursor: text;
+  transition: 0.2s;
+}
+
+.submit-contact {
+  padding: 10px 0;
+  color: #FFF;
+  outline: none;
+  width: 100%;
+  background-color: #000;
+  cursor: pointer;
+  box-shadow: 4px 4px 0.125rem #5e0819;
+}
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label {
+  top: -35px;
+  font-size: 14px;
+}
+
+/* End of contact form*/
