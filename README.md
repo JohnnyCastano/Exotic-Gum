@@ -41,7 +41,7 @@
         <li>Debugged</li>
         <li>Made the coloring pallate for the website</li>
 
-    </ul>
+   
 </p>
 <hr>
 
@@ -61,6 +61,6 @@
  <li> Worked on the cart buttons</li>
         <li>Site-tester</li>
 
-    </ul>
+   
 </p>
 
