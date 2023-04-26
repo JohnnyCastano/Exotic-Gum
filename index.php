@@ -3,7 +3,7 @@ include_once 'includes/dbh.inc.php';
 ?>
 
 
-<!--http://localhost/ExoticGum/images-->
+<!--/images-->
 <!--/images-->
 
 
@@ -16,7 +16,7 @@ include_once 'includes/dbh.inc.php';
   <meta name="description" content="">
   <meta name="author" content="Andrew Ellis, Johnny Martinez, Champ Nguyen">
   <meta name="keywords" content="Gum, exotic flavors, Exotic Gum, World Gum">
-  <link rel="shortcut icon" href="/images/newlogo.png">
+  <link rel="shortcut icon" href="//images/newlogo.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <title>Exotic Gum!</title>
@@ -34,7 +34,7 @@ include_once 'includes/dbh.inc.php';
     <div class="container-fluid">
       <nav class="navbar navbar-expand-sm fixed-top">
         <a class="navbar-brand ms-auto" href="index.php">
-          <img src="http://localhost/ExoticGum/images/newlogo.png" class="logonav">
+          <img src="/images/newlogo.png" class="logonav">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -79,13 +79,13 @@ include_once 'includes/dbh.inc.php';
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="http://localhost/ExoticGum/images/Tropical.png" class="d-block w-100 h-40" alt="...">
+          <img src="/images/Tropical.png" class="d-block w-100 h-40" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="http://localhost/ExoticGum/images/Desert.png" class="d-block w-100 h-40" alt="...">
+          <img src="/images/Desert.png" class="d-block w-100 h-40" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="http://localhost/ExoticGum/images/Beach.png" class="d-block w-100 h-40" alt="...">
+          <img src="/images/Beach.png" class="d-block w-100 h-40" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -119,17 +119,16 @@ include_once 'includes/dbh.inc.php';
                 </h5>
             </div>
             <div class="col-md-6 mx-auto">
-                <img src="/images/Culture.png">
+                <img src="/images/founders5.JPG" width = 700px>
             </div>
         </div>
         <div class="row align-items-center justify-content-center text-center">
             <div class="col-md-6 mx-auto">
-                <img src="/images/Factory.png">
+                <img src="/images/founders2.JPG" width = 700px>
             </div>
             <div class="col-md-6 mx-auto">
                 <h2>Our Flavors!</h2>
-                <h5>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-                </h5>
+                <h5>We handpick all of our flavors from our various travels around the world. We specifically handpick them for their exotic taste. We guarentee that all of our gums taste EXACTLY like the real dish.</h5>
             </div>
         </div>
         <div class="row align-items-center justify-content-center text-center">
@@ -139,7 +138,7 @@ include_once 'includes/dbh.inc.php';
                 </h5>
             </div>
             <div class="col-md-6 mx-auto">
-                <img src="http://localhost/ExoticGum/images/mystery.png" alt="">
+                <img src="/images/mystery.png" alt="">
             </div>
         </div>
     </div>
@@ -169,14 +168,11 @@ include_once 'includes/dbh.inc.php';
                         Birria!
                       </h5>
                       <hr>
-                      <a href="buy.php" class="btn btn-inner-clr inner-clr">
+                      <a href="our_gums.php" class="btn btn-inner-clr inner-clr">
                         Order Here!
                       </a>
-                      <a href="index.php"><img class="card-img-top" src="http://localhost/ExoticGum/images/Birria.png"
-                          alt="Card image"></a>
-                      <p class="card-text">
-                        Order from our online menu and have it delivered straight to your door!
-                      </p>
+                      <img class="card-img-top" src="/images/Birria.png"
+                          alt="Card image">
                       </p>
                     </div>
                   </div>
@@ -189,14 +185,11 @@ include_once 'includes/dbh.inc.php';
                         Empanada!
                       </h5>
                       <hr>
-                      <a href="buy.php" class="btn btn-inner-clr inner-clr">
+                      <a href="our_gums.php" class="btn btn-inner-clr inner-clr">
                         Order Here!
                       </a>
-                      <a href="index.php"><img class="card-img-top" src="http://localhost/ExoticGum/images/Empanada.png"
-                          alt="Card image"></a>
-                      <p class="card-text">
-                        Order from our online menu and have it delivered straight to your door!
-                      </p>
+                      <img class="card-img-top" src="/images/Empanada.png"
+                          alt="Card image">
                       </p>
                     </div>
                   </div>
@@ -209,15 +202,12 @@ include_once 'includes/dbh.inc.php';
                         Viscacha!
                       </h5>
                       <hr>
-                      <a href="buy.php" class="btn btn-inner-clr inner-clr">
+                      <a href="our_gums.php" class="btn btn-inner-clr inner-clr">
                         Order Here!
                       </a>
-                      <a href="index.php"><img class="card-img-top" src="http://localhost/ExoticGum/images/Viscacha.png"
-                          alt="Card image"></a>
-                      <p class="card-text">
-                        Order from our online menu and have it delivered straight to your door!
-                      </p>
-                      </p>
+                      <img class="card-img-top" src="/images/Viscacha.png"
+                          alt="Card image">
+                        </p>
                     </div>
                   </div>
                 </div>
@@ -239,17 +229,14 @@ include_once 'includes/dbh.inc.php';
                     <div class="card-body text-center">
                       <p>
                       <h5 class="card-title">
-                        Delivery
+                        Tofu!
                       </h5>
                       <hr>
-                      <a href="buy.php" class="btn btn-inner-clr inner-clr">
-                        Order Online
+                      <a href="our_gums.php" class="btn btn-inner-clr inner-clr">
+                        Order Here!
                       </a>
-                      <a href="index.php"><img class="card-img-top" src="http://localhost/ExoticGum/images/Birria.png"
-                          alt="Card image"></a>
-                      <p class="card-text">
-                        Order from our online menu and have it delivered straight to your door!
-                      </p>
+                      <img class="card-img-top" src="/images/tofu.png"
+                          alt="Card image">
                       </p>
                     </div>
                   </div>
@@ -259,17 +246,14 @@ include_once 'includes/dbh.inc.php';
                     <div class="card-body text-center">
                       <p>
                       <h5 class="card-title">
-                        Delivery
+                        Beans on Toast!
                       </h5>
                       <hr>
-                      <a href="buy.php" class="btn btn-inner-clr inner-clr">
-                        Order Online
+                      <a href="our_gums.php" class="btn btn-inner-clr inner-clr">
+                        Order Here!
                       </a>
-                      <a href="index.php"><img class="card-img-top" src="http://localhost/ExoticGum/images/Empanada.png"
-                          alt="Card image"></a>
-                      <p class="card-text">
-                        Order from our online menu and have it delivered straight to your door!
-                      </p>
+                      <img class="card-img-top" src="/images/beans_on_toast.png"
+                          alt="Card image">
                       </p>
                     </div>
                   </div>
@@ -279,18 +263,15 @@ include_once 'includes/dbh.inc.php';
                     <div class="card-body text-center">
                       <p>
                       <h5 class="card-title">
-                        Delivery
+                        Deep Fried Oreos!
                       </h5>
                       <hr>
-                      <a href="buy.php" class="btn btn-inner-clr inner-clr">
-                        Order Online
+                      <a href="our_gums.php" class="btn btn-inner-clr inner-clr">
+                        Order Here!
                       </a>
-                      <a href="index.php"><img class="card-img-top" src="http://localhost/ExoticGum/images/Viscacha.png"
-                          alt="Card image"></a>
-                      <p class="card-text">
-                        Order from our online menu and have it delivered straight to your door!
-                      </p>
-                      </p>
+                      <img class="card-img-top" src="/images/deep_fried_oreos.png"
+                          alt="Card image">
+                        </p>
                     </div>
                   </div>
                 </div>
@@ -411,16 +392,16 @@ include_once 'includes/dbh.inc.php';
             <br>
             <br>
             <a href="https://www.facebook.com/profile.php?id=100091569529499">
-              <img src="http://localhost/ExoticGum/images/Facebook_Logo.png" height="50px">
+              <img src="/images/Facebook_Logo.png" height="50px">
             </a>
             <a href="https://instagram.com/exotic_gum?igshid=YmMyMTA2M2Y=">
-              <img src="http://localhost/ExoticGum/images/Instagram_logo.png" height="50px">
+              <img src="/images/Instagram_logo.png" height="50px">
             </a>
           </div>
           <div class="col-md-4">
             <br>
             <a href="#top">
-              <img src="http://localhost/ExoticGum/images/newlogo.png " height="150px">
+              <img src="/images/newlogo.png " height="150px">
             </a>
             <br>
           </div>

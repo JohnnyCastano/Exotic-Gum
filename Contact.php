@@ -1,5 +1,6 @@
 <?php
 include_once 'includes/dbh.inc.php';
+include_once 'contactform.php';
 ?>
 
 <!doctype html>
@@ -11,7 +12,7 @@ include_once 'includes/dbh.inc.php';
   <meta name="description" content="">
   <meta name="author" content="Andrew Ellis, Johnny Martinez, Champ Nguyen">
   <meta name="keywords" content="Gum, exotic flavors, Exotic Gum, World Gum">
-  <link rel="shortcut icon" href="/images/logo.png">
+  <link rel="shortcut icon" href="//images/logo.png">
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -27,7 +28,7 @@ include_once 'includes/dbh.inc.php';
     <div class="container-fluid">
       <nav class="navbar navbar-expand-sm fixed-top">
         <a class="navbar-brand ms-auto" href="index.php">
-          <img src="http://localhost/ExoticGum/images/newlogo.png" class="logonav">
+          <img src="/images/newlogo.png" class="logonav">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,29 +58,46 @@ include_once 'includes/dbh.inc.php';
   </section>
 
 
-  <section>
-    <div class="col-md-8 contact-boxes">
-      <form>
-        <div class="input-group">
-          <input type="text" id="name" required>
-          <label for="name">Your Name</label>
-        </div>
-        <div class="input-group">
-          <input type="text" id="number" required>
-          <label for="number">Phone No.</label>
-        </div>
-        <div class="input-group">
-          <input type="email" id="email" required>
-          <label for="email">Email</label>
-        </div>
-        <div class="input-group">
-          <textarea id="message" rows="8" required></textarea>
-          <label for="message">Comment</label>
-        </div>
-        <button type="submit" class="submit-contact">SUBMIT</button>
-      </form>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+  <section class="contact ">
+    <div class="container-fluid">
+      <div class="col-md-2">
+
+      </div>
+      <div class="col-md-8 mx-auto">
+        <h2 class="text-center">Contact Us Here!</h2>
+        <form class="contact-form form-control card-parallax" action="contactform.php" method="post">
+          <div class="row contact-input">
+            <input type="text" name="name" placeholder="First and Last Name">
+          </div>
+          <div class="row contact-input">
+            <input type="text" name="email" placeholder="Your email">
+          </div>
+          <div class="row contact-input">
+            <input type="text" name="subject" placeholder="Subject">
+          </div>
+          <div class="row contact-input">
+            <textarea name="message" placeholder="Message"></textarea>
+            <button class="btn inner-clr" type="submit" name="submit">SEND MAIL</button>
+          </div>
+          <div class="col-md-2">
+
+          </div>
+        </form>
+      </div>
     </div>
   </section>
+
+
+  <br>
+  <br>
+  <br>
+  <br>
 
   <!--CSS Waves-->
 

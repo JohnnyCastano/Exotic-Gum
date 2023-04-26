@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost", "root", "", "ExoticGum");
+$conn = mysqli_connect("localhost", "root", "", "mahs_codephobia");
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
@@ -9,12 +9,12 @@ if(isset($_POST['submit'])) {
     $subject = $_POST['subject'];
     $message = $_POST['message'];
 
-    $sql = "INSERT INTO `contact_form`(`person_id`, `name`, `email`, `subject`, `message`) VALUES (NULL, '$name', '$email', '$subject', '$message)"
+    $sql = " INSERT INTO `contactform`(`person_id`, `name`, `email`, `subject`, `message`) VALUES (NULL, '$name', '$email', '$subject', '$message')";
 
 
     $to = "cobaltbleu27.4@gmail.com";
-    $headers = "From: ".$email;
-    $txt = "You have received an email from ".$name.".\n\n".$message;
+    $headers = "From: ". $email;
+    $txt = "You have received an email from ".$name." \n\n".$message;
 
     mail($to, $subject, $txt, $headers);
     header("Location: contact.php?mailsend");
@@ -26,6 +26,6 @@ if(isset($_POST['submit'])) {
     }
 
 }
-mysqli_close($conn)
+mysqli_close($conn);
 
 ?>
