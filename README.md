@@ -1,5 +1,5 @@
 # Exotic Gum
- Exotic Gum Devcatalyst project
+ Our company, Exotic Gum, was founded in April 1st, 1911. Our company was made to help deliver unique and exotic flavored gum from all over the world. Not only do we focus on the taste, but also on the texture and overall chewing experience. Our product is a symbol for uniqueness and playfulness for where we aim to make every chew a memorable one.
 
 <p>
     <h3>Website Features</h3>
